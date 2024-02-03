@@ -1,0 +1,21 @@
+.logo{
+  
+    float:center;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+.clgname{
+    text-align: center;
+}
+form{
+    text-align: center;
+    border: 1px black solid;
+    border-radius: 10px;
+    width: 800px;
+    margin-left: 100px;
+}

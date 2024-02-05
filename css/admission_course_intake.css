@@ -1,0 +1,64 @@
+.body
+{
+   
+}
+
+.UG
+{
+ 
+    border: 2px solid black;
+    margin: 50px;
+    box-shadow: 10px 20px 20px 4px rgb(20, 19, 17);
+    height: 1200px;
+    
+}
+
+.UG:hover
+{
+ 
+    border: 4px solid black;
+    box-shadow: 5px 10px 10px 2px rgb(20, 19, 17);
+}
+
+.title
+{
+    font-size: 25px;
+    border-bottom: solid black 1px;
+    text-align: center;
+    background-color:rgb(53, 53, 136);
+    padding: 20px 20px;
+    font-weight: bold;
+    color: white;
+}
+.p
+{
+ text-align: justify;
+ padding: 20px;
+ font-size: 20px;
+}
+
+.table
+{
+    margin: 20px;
+    border:  2px solid black;
+    box-shadow: 5px 10px 10px 2px rgb(20, 19, 17);
+    width: 800px;
+}
+
+.th
+{
+    color: black;
+    background-color:wheat;
+}
+
+.td
+{
+   
+    color:black;
+}
+
+.pn
+{
+    padding: 20px;
+    font-size: 20px;
+}

@@ -1,0 +1,93 @@
+.body
+{
+  display: inline-flex;
+}
+
+
+.title
+{
+        font-size: 25px;
+        /* border-bottom: solid black 1px; */
+        text-align: center;
+        background-color:rgb(53, 53, 136);
+        padding: 20px 20px;
+        font-weight: bold;
+        color: white;
+}
+
+.UG
+{
+ 
+    border: 2px solid black;
+    margin: 10px 50px;
+    height: 1100px;
+    width:900px;
+    text-align: left;
+    color:black;
+    box-shadow: 10px 20px 20px 4px rgb(20, 19, 17);
+}
+.UG:hover
+{
+ 
+    border: 4px solid black;
+    box-shadow: 5px 10px 10px 2px rgb(20, 19, 17);
+}
+
+.p
+{
+ text-align: justify;
+ padding: 20px;
+ font-size: 20px;
+}
+
+
+.b
+{
+font-size: 20px;
+}
+
+.li 
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+.cn
+{
+   
+    padding:10px 10px;
+}
+
+.PG
+{
+ 
+    border: 2px solid black;
+    margin: 10px 50px;
+    height: 500px;
+    width:900px;
+    text-align: left;
+    color:black;
+    box-shadow: 10px 20px 20px 4px rgb(20, 19, 17);
+}
+.PG:hover
+{
+ 
+    border: 4px solid black;
+    box-shadow: 5px 10px 10px 2px rgb(20, 19, 17);
+}
+
+.Masters
+{ 
+    border: 2px solid black;
+    margin: 10px 50px;
+    height: 400px;
+    width:900px;
+    text-align: left;
+    color:black;
+    box-shadow: 10px 20px 20px 4px rgb(20, 19, 17);
+}
+.Masters:hover
+{
+ 
+    border: 4px solid black;
+    box-shadow: 5px 10px 10px 2px rgb(20, 19, 17);
+}

@@ -1,13 +1,20 @@
 .logo{
-  
-    float:center;
     height: 100px;
     width: 100px;
-    text-align: center;
-}
+    border-radius: 50%;
+   }
+
+
 h1{
     text-align: center;
     color: red;
+    text-decoration: underline;
+}
+h2{
+    color: rgb(61, 61, 101);
+    text-decoration: underline;
+    position: relative;
+    padding-top: 10px;
 }
 .clgname{
     text-align: center;
@@ -18,4 +25,17 @@ form{
     border-radius: 10px;
     width: 800px;
     margin-left: 100px;
+    box-shadow: 10px 10px 5px 5px gray;
+    background-color: rgb(222, 227, 205);
+}
+.btn{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding: 8px 10px;
+}
+.btn:hover{
+    background-color: green ;
+    color: white;
+    border: 2px solid black;
 }

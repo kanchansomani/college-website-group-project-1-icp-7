@@ -4,25 +4,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home page</title>
     <style>
+        
+
+       
         @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
   
        .college_name{ 
-           background-color: rgb(125, 125, 236);
+           background-color: rgb(185, 20, 20);
            padding: 20px;
-           font-size: 20px;
-           color: rgb(6, 2, 81);
+           font-size: 30px;
+           color: rgb(255, 255, 255);
            font-family: 'PT Serif', serif; 
            text-align: center;
            border-radius: 5px;
            margin-left: 200px;
            margin-right: 200px;
-           height: 80px;
+           height: 100px;
            margin-top: 40px;
+          
        }
            
        .grade{
-           color: rgba(39, 1, 1, 0.963);
-           font-size: 20px;
+           color: rgba(203, 228, 11, 0.963);
+           font-size: 30px;
        }
        
        .image{
@@ -42,6 +46,7 @@
         margin: 10px;
         margin-top: 20px;
         box-shadow: 0 0 5px 5px;
+        text-align: justify;
        }
 
        .about{
@@ -52,20 +57,50 @@
        .logo{
         
         margin-top: -100px;
-        height="170px"
-        border:2px solid black ;
+        height="200px"
+        
        }
 
        .social_media{
        height: 40px;
        margin:5px ;
+
        }
 
        .sections{
-        font-size: 30px;
-       
+        font-size: 35px;
+       margin: 5px;
+       background-color: rgb(186, 236, 252);
+       border: 5px solid rgb(42, 108, 231);
+       padding: 10px;
+       display: inline-block;
+       box-shadow: 0 5px 2px 2px;
        }
 
+       .notice{
+        text-align: center;
+        background-color: aquamarine;
+        padding: 5px;
+        border: 5px solid grey;
+        border-radius: 10px;
+        margin: 50px 200px 0 200px;
+       }
+
+       .notice-card{
+        height:300px;
+        width: 30%;
+        background-color: rgba(24, 28, 30, 0.299);
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 20px;
+        display:inline-flex;
+        margin: 10px;
+        margin-top: 20px;
+        box-shadow: 0 0 5px 5px;
+        text-align: center;
+       }
+       
+      
    </style>
     
     
@@ -85,14 +120,15 @@
 
 
 <div class="sections">
-    <a href="./pages/login.html"/>Login</a>
+    <a href="./pages/Loginpage.html"/>Login</a>
     <a href="./pages/about.html"/>About Us</a>
     <a href="./pages/admission.html"/>Admission</a>
     <a href="./pages/examination.html"/>Examination</a>
     <a href="./pages/department-info.html"/>Department</a>
     <a href="./pages/training-and-placement.html"/>Training and Placement</a>
     <a href="./pages/contact.html"/>Contact Us</a>
-</div>
+    </div>
+    
 
 
 
@@ -115,15 +151,34 @@
    height="250px"
    class="image"/>
 
+   <h1 class="notice">NOTICES</h1>
+
+   <div class="notice-card"><h3>General Notice</h3>
+    <p></p>
+
+   </div>
+
+   <div class="notice-card"><h3>Admission Notices</h3>
+    <p></p>
+
+   </div>
+
+   <div class="notice-card"><h3>Examination Notices</h3>
+   <p></p>
+
+  </div>
+
+
+
    
 <footer>
 <div class="card">
-    <b> AVAILABLE FACILITIES:</b>
+    <h4> AVAILABLE FACILITIES:</h4>
     </br></br>
     KOHA OPAC NEPTEL Virtual-Lab NDL-India MOODLE Virtual-Classrooms Language-Lab
 </div>
 
-<div class="card"><b> GET IN TOUCH:</b>
+<div class="card"><h4> GET IN TOUCH:</h4>
     </br></br>
     Spectrum College of Engineering and Research, Gate No.: 720/2, Nagar Road, Wagholi, Pune, Maharashtra - 412207
     </br>
@@ -139,7 +194,7 @@
     </div>
 
 <div class="card">
-    <b>INSTITUTIONAL COMMITTEES: </b></br></br>
+    <h4>INSTITUTIONAL COMMITTEES: </h4></br></br>
     1.Students Grievance Committee</br>
     2.Anti Ragging Committee</br>
     3.SC/ ST Committee</br>

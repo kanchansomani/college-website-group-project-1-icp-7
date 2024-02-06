@@ -39,5 +39,27 @@
     background-color: rgb(76, 76, 247);
 }
 .heading{
-    font-size:20px
+    font-size:20px;
+}
+.divisions {
+    font-size: 30px; 
+    padding: 20px 70px;
+    text-decoration: none; 
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #3990c2; 
+    color: #fff;
+
+  }
+.div-img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
 }

@@ -64,14 +64,16 @@
        }
 
        .nevigation_bar{
-       font-size: 50px;
-       margin: 10px;
+       font-size: 30px;
+       margin: 30px;
        background-color: rgb(186, 236, 252);
        border: 5px solid rgb(42, 108, 231);
        padding: 10px;
        display: inline-block;
        box-shadow: 0 5px 2px 2px;
        width: 100%;
+       display: inline;
+       margin-top: 20px;
        }
 
       .navigation_button{
@@ -103,3 +105,12 @@
         box-shadow: 0 0 1px 1px;
         text-align: center;
        }   
+
+       .search{
+        margin: 40px;
+        size: 100px;
+        padding: 10px;
+        font-size: 20px;
+        text-align: start;
+       }
+       

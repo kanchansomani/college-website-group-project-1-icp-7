@@ -1,0 +1,65 @@
+.main-heading{  
+    color:black;
+    font-size: 55px; 
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    background-image: url("../img/clg1.avif");
+    
+}
+.about-main{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    padding: 10px 20px;
+}
+.about{
+    font-size: 20px;
+}
+.img1{
+    width:500px;
+    display:inline;  
+    margin-left: 30px;
+    border: 7px solid rgb(119, 118, 118);
+}
+.points{
+    padding-top: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: larger;
+}
+
+.vision{
+    height: 80px;
+    font-size:20px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(76, 76, 247);
+}
+.heading{
+    font-size:20px;
+}
+.divisions {
+    font-size: 30px; 
+    padding: 20px 70px;
+    text-decoration: none; 
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #3990c2; 
+    color: #fff;
+
+  }
+.div-img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+}

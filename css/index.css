@@ -1,6 +1,9 @@
 
         @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
-  
+         
+        .container{
+            background-color:rgb(15, 15, 86);
+        }
        .college_name{ 
            background-color:#002db3  ;
            padding: 20px;

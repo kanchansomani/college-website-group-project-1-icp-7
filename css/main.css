@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap');
+.container{
+    height: 1000px;
+    width:1500px;
+    background-color:rgb(15, 15, 86);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    box-shadow: 1px 1px 5px 5px rgb(88, 88, 101);
+}
+.txt{
+    font-family: "Cinzel", serif;
+    font-size: 40px;
+    position: relative;
+    bottom: 70px;
+    left: 30px;
+}
+.logo{
+    position: relative;
+    right:650px;
+    height:100px;
+    top: 50px;
+        border-radius: 50%;
+        border: 4px solid black;
+
+}
+.name{
+   
+    height: 300px;
+    width: 100%;
+    background-color:rgb(216, 236, 244);
+    border: 5px solid darkblue;
+    text-align: center;
+ box-shadow: 1px 1px 5px 5px gray ;
+}
+.tagline{
+    position: relative;
+    width: 500px;
+    left: 480px;
+    color: aliceblue;
+    border-radius: 30px;
+    border: 3px solid black;
+    font-family: "Dancing Script", cursive;
+    font-size: 40px;
+    background-color: rgb(42, 42, 97);
+}
+
+
+.name:hover{
+    transition: 0.5s;
+    box-shadow: 1px 1px 5px 10px rgb(190, 190, 247);
+    border-radius: 50px;
+}
+.compi{
+    height:150px ;
+    position: relative;
+    left:10px;
+    top:10px;
+    border-radius: 50%; 
+    border: 4px solid darkblue;
+}
+.entci{
+    height: 130px;
+    position: relative;
+    left:-40px;
+    top:20px;
+    border: 5px solid darkblue;
+    border-radius: 50%;
+}
+.civili{
+    height: 130px;
+    width: 130px;
+    border-radius: 50% ;
+    position: relative;
+    left: -270px;
+    top: 25px;
+    border: 5px solid darkblue;
+}
+.comp{
+    font-family: "Cinzel", serif; 
+    height: 200px;
+    width: 700px;
+    background-color: rgb(216, 236, 244);
+    border: 5px solid darkblue;
+    border-top-left-radius:30px ;
+    border-bottom-right-radius: 30px;   
+    display: flex;
+}  
+.alge{
+    position: relative;
+    top: -90px;
+    display: inline-block;
+    left: 10px;
+}  
+.alg{
+    position: relative;
+    top: 0px;
+    display: inline-block;
+    left: 100px;
+}
+.algc{
+    text-align: center;
+    position: relative;
+    top: -145px;
+
+}
+.comp:hover{
+    transition: 0.5s;
+    box-shadow: 1px 1px 10px 10px rgb(190, 190, 247);
+    border-radius: 30px;
+}
+
+.entc{
+    font-family: "Cinzel", serif;
+    height: 200px;
+    width: 700px;
+    background-color: rgb(216, 236, 244);
+    border: 5px solid darkblue;
+    border-top-left-radius:30px ;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+}
+.entc:hover{
+    transition: 0.5s;
+    box-shadow: 1px 1px 10px 10px rgb(190, 190, 247);
+    border-radius: 30px;
+    
+}
+.infom{
+    position: relative;
+    font-size: 15px;
+    bottom: 150px;
+   margin-left:30px;
+}
+.infoco{
+    position: relative;
+    font-size: 15px;
+    top: 50px;
+    right: 70px;
+
+}
+.infoe{
+    
+        position: relative;
+        font-size: 15px;
+        top: -110px;
+        left: 100px;
+    
+    
+}
+.infomech{
+    position: relative;
+    font-size: 15px;
+    top: 50px;
+   right: 200px;
+
+        
+}
+.mech{
+    font-family: "Cinzel", serif;
+    height: 200px;
+    width: 700px;
+    background-color: rgb(216, 236, 244);
+    border: 5px solid darkblue;
+    border-top-left-radius:30px ;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+    display: flex;
+}
+.mech:hover{
+    transition: 0.5s;
+    box-shadow: 1px 1px 10px 10px rgb(190, 190, 247);
+    border-radius: 30px;
+}
+
+.mba{
+    font-family: "Cinzel", serif;
+    height: 200px;
+    width: 700px;
+    background-color:rgb(216, 236, 244);
+    border: 5px solid darkblue;
+    border-top-left-radius:30px ;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+    display: flex;
+}
+.mba:hover{
+    transition: 0.5s;
+    box-shadow: 1px 1px 10px 10px rgb(190, 190, 247);
+    border-radius: 30px;
+}
+.mba1{
+    position: relative;
+    top: 40px;
+    display: inline-block;
+    right: 90px;
+    font-family:"Cinzel", serif; 
+    font-size: 15px;
+
+}
+
+.it{
+    font-family: "Cinzel", serif;
+    height: 200px;
+    width: 700px;
+    background-color: rgb(216, 236, 244);
+    border: 5px solid darkblue;
+    border-top-left-radius:30px ;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+    display: flex;
+}
+.it:hover{
+    transition: 0.5s;
+    box-shadow: 1px 1px 10px 10px rgb(190, 190, 247);
+    border-radius: 30px;
+}
+.iti{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    border: 5px solid darkblue;
+}
+.infoit{
+     position: relative;
+    bottom: 80px;
+    font-size: 15px;
+    top: 80px;
+    right: 200px;
+
+}
+.civil{
+    font-family: "Cinzel", serif;
+    height: 200px;
+    width: 700px;
+    background-color: rgb(216, 236, 244);
+    border: 5px solid darkblue;
+    border-top-left-radius:30px ;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+
+}
+.civil:hover{
+    transition: 0.5s;
+    box-shadow: 1px 1px 10px 10px rgb(190, 190, 247);
+    border-radius: 30px;
+}
+.civil1{
+   padding-left: 100px;
+   
+}
+
+.mechi{
+    mix-blend-mode: color-burn;
+    height: 130px;
+    width: 130px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+.algm{
+    padding-left: 150px;
+}
+
+.info{
+     position: relative;
+    top: 120px;
+    display: inline-block;
+    left: 100px;
+    font-family:"Cinzel", serif; 
+    font-size: large;
+
+}
+.but1{
+    position: relative;
+    right: 350px;
+    height: 50px;
+    width: 50px;
+    top: 140px;
+    border-radius: 50%;
+    background-color: rgb(177, 204, 248);
+    color: rgb(216, 236, 244) ;
+    border: 2px solid black;
+}
+.but1:hover{
+    transition: 0.3s;
+    box-shadow: 1px 1px 10px 10px rgb(190, 190, 247);
+    border-radius: 30px;
+}
+.but3{
+    position: relative;
+ right: 120px;
+    height: 50px;
+    width: 50px;
+    bottom: 70px;
+    border-radius: 50%;
+    background-color: rgb(177, 204, 248);
+    color: rgb(216, 236, 244) ;
+    border: 2px solid black;
+}
+.but3:hover{
+    transition: 0.3s;
+    box-shadow: 1px 1px 10px 10px rgb(190, 190, 247);
+    border-radius: 30px;
+}
+.but2{
+    
+        position: relative;
+     right: 120px;
+        height: 50px;
+        width: 50px;
+       top: 140px;
+        border-radius: 50%;
+        background-color: darkblue;
+        color: rgb(216, 236, 244) ;
+        border: 2px solid black;
+}
+.but2:hover{
+    transition: 0.3s;
+    box-shadow: 1px 1px 10px 10px rgb(190, 190, 247);
+    border-radius: 30px;
+}
+.but4{
+            position: relative;
+     left: 120px;
+        height: 50px;
+        width: 50px;
+       bottom: 90px;
+        border-radius: 50%;
+        background-color: darkblue;
+        color: rgb(177, 204, 248);
+        border: 2px solid black;
+}
+.but4:hover{
+    transition: 0.3s;
+    box-shadow: 1px 1px 10px 10px rgb(190, 190, 247);
+    border-radius: 30px;
+}
+.but5{
+    position: relative;
+   right:1150px;
+    height: 50px;
+    width: 50px;
+    top: 140px;
+    border-radius: 50%;
+    background-color:  rgb(177, 204, 248);
+    color: rgb(216, 236, 244) ;
+    border: 2px solid black;
+}
+.but5:hover{
+    transition: 0.3s;
+    box-shadow: 1px 1px 10px 10px rgb(190, 190, 247);
+    border-radius: 30px;
+}
+.but5{
+    position: relative;
+    right: 420px;
+     height: 50px;
+    width: 70px;
+    top: 140px;
+    border-radius: 50%;
+    background-color: rgb(177, 204, 248);
+    color: rgb(216, 236, 244) ;
+    border: 2px solid black;
+}
+.but6{
+    position: relative;
+    right: 185px;
+       height: 50px;
+       width: 50px;
+       top: 140px;
+       border-radius: 50%;
+       background-color:darkblue;
+       color: rgb(216, 236, 244) ; 
+       border: 2px solid black;
+}
+.but6:hover{
+    transition: 0.3s;
+    box-shadow: 1px 1px 10px 10px rgb(190, 190, 247);
+    border-radius: 30px;
+}
+.but7{
+    position: relative;
+    right: 120px;
+       height: 50px;
+       width: 50px;
+       bottom: 110px;
+       border-radius: 50%;
+       background-color: rgb(177, 204, 248);
+       color: rgb(216, 236, 244) ;
+       border: 2px solid black;
+   }
+   .but7:hover{
+    transition: 0.3s;
+    box-shadow: 1px 1px 10px 10px rgb(190, 190, 247);
+    border-radius: 30px;
+}
+.but8{
+    position: relative;
+    left: 120px;
+       height: 50px;
+       width: 50px;
+      bottom: 130px;
+       border-radius: 50%;
+       background-color: darkblue;
+       color: rgb(216, 236, 244) ;
+       border: 2px solid black;
+}
+.but8:hover{
+    transition: 0.3s;
+    box-shadow: 1px 1px 10px 10px rgb(190, 190, 247);
+    border-radius: 30px;
+}
+.but10{
+    position: relative;
+    right: 250px;
+       height: 50px;
+       width: 50px;
+     top: 130px;
+       border-radius: 50%;
+       background-color:  rgb(177, 204, 248);
+       color: rgb(216, 236, 244) ;
+       border: 2px solid black;
+}
+.but10:hover{
+    transition: 0.3s;
+    box-shadow: 1px 1px 10px 10px rgb(190, 190, 247);
+    border-radius: 30px;}
+.but11{
+    position: relative;
+   right: 400px;
+       height: 50px;
+       width: 75px;
+      top: 130px;
+       border-radius: 50%;
+       background-color: rgb(177, 204, 248);
+       color: rgb(216, 236, 244) ;
+       border: 2px solid black;
+}
+.but11:hover{
+    transition: 0.3s;
+    box-shadow: 1px 1px 10px 10px rgb(190, 190, 247);
+    border-radius: 30px;
+}
+.but12{
+    position: relative;
+    right: 40px;
+       height: 50px;
+       width: 50px;
+     top: 130px;
+       border-radius: 50%;
+       background-color:darkblue;
+       color: rgb(216, 236, 244) ;
+       border: 2px solid black;
+}
+.but12:hover{
+    transition: 0.3s;
+    box-shadow: 1px 1px 10px 10px rgb(190, 190, 247);
+    border-radius: 30px;
+}
+.but13{
+    position: relative;
+    right: 160px;
+       height: 50px;
+       width: 50px;
+     top: 130px;
+       border-radius: 50%;
+       background-color:darkblue;
+       color: rgb(216, 236, 244) ;
+       border: 2px solid black;
+}
+.but13:hover{
+    transition: 0.3s;
+    box-shadow: 1px 1px 10px 10px rgb(190, 190, 247);
+    border-radius: 30px;
+}
+.num{
+    position: relative;
+    top: 125px;
+    right: 325px;
+}

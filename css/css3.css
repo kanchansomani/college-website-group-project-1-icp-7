@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap');
+.infoc2{position: relative;
+    bottom: 110px;
+    display: flex;
+    right: 20px;
+    background-color: rgb(15, 15, 86);
+    width: 800px;
+   box-shadow: 1px 1px 4px 5px gray;
+    border: solid;
+}
+.faculty{
+    position: relative;
+    text-align: center;
+    left: 220px;
+    font-family: "Playfair Display", serif;
+    color: aliceblue;
+}
+.Contact{
+    position: relative;
+    top: 70px;
+    right: 230px;
+}
+.deptimgc1{
+    position: relative;
+    right: 660px;
+    top: 10px;
+    border-radius: 50%;
+    height: 170px;
+    border: 4px solid rgb(15, 15, 86);
+}
+.deptimgc2{
+    position: relative;
+    height: 180px;
+    width: 180px;
+    top: 10px;
+    border-radius: 50%;
+    border: 4px solid rgb(15, 15, 86);
+}
+.deptimg3{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    left: 150px;
+    top: 40px;
+    border-radius: 50%;
+    border: 4px solid rgb(15, 15, 86);
+}
+.deptimg4{
+ position: relative;
+ bottom: 1px;
+right: 1010px;
+top: 30px;
+ height: 200px;
+ width: 200px; 
+ border-radius: 50%; 
+ border: 4px solid rgb(15, 15, 86); 
+}
+.deptimg5{
+    position: relative;
+    height: 180px;
+    width: 180px;
+    left: 260px;
+    top: 40px;
+    border-radius: 50%;
+    border: 4px solid rgb(15, 15, 86);
+}
+.deptimg6{
+    position: relative;
+ bottom: 1px;
+right: 950px;
+top: 30px;
+ height: 180px;
+ width: 180px; 
+ border-radius: 50%;
+ border: 4px solid rgb(15, 15, 86);  
+}
+.deptimg11{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    left: 200px;
+    top: 20px;
+    border-radius: 50%;
+    border: 4px solid rgb(15, 15, 86);
+}
+.deptimg12{
+    position: relative;
+    bottom: 1px;
+   right: 1010px;
+   top: 20px;
+    height: 200px;
+    width: 200px; 
+    border-radius: 50%;  
+    border: 4px solid rgb(15, 15, 86);
+}
+.deptimg9{
+    position: relative;
+    height: 160px;
+    width: 160px;
+    left: 200px;
+    top: 20px;
+    border-radius: 50%;
+    border: 4px solid rgb(15, 15, 86);
+}
+.deptimg10{
+    position: relative;
+    bottom: 1px;
+   right: 970px;
+   top: 20px;
+    height: 160px;
+    width: 160px; 
+    border-radius: 50%;  
+    border: 4px solid rgb(15, 15, 86);
+}

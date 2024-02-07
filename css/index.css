@@ -39,10 +39,11 @@
         padding: 10px;
         font-size: 20px;
         display:inline-flex;
-        margin: 10px;
+        margin: 7px;
         margin-top: 20px;
         box-shadow: 0 0 5px 5px;
-        text-align: justify;
+       text-align: left;
+       border: 2px dotted black;
        }
 
        .about{
@@ -66,31 +67,31 @@
        .nevigation_bar{
        font-size: 30px;
        margin: 30px;
-       background-color: rgb(186, 236, 252);
-       border: 5px solid rgb(42, 108, 231);
-       padding: 10px;
+       background-color: aquamarine;
+       border: 5px solid rgb(0, 0, 0);
+       padding: 15px;
        display: inline-block;
-       box-shadow: 0 5px 2px 2px;
        width: 100%;
        display: inline;
-       margin-top: 20px;
+       margin-top: 30px;
        }
 
       .navigation_button{
         font-size: 25px;
        border: 3px solid rgb(79, 77, 77);
        border-radius: 5px;
-       background-color: rgb(228, 238, 220);
+       background-color: rgb(232, 240, 240);
+       
+       
       }
 
-       .notice{
-        text-align: center;
-        background-color: aquamarine;
-        padding: 5px;
-        border: 5px solid grey;
-        border-radius: 10px;
-        margin: 50px 200px 0 200px;
-       }
+      .navigation_button :hover{
+       border:5px solid black ;
+
+
+
+      }
+       
 
        .notice-card{
         height:50px;
@@ -100,17 +101,41 @@
         padding: 10px;
         font-size: 20px;
         display:inline-flex;
-        margin: 10px;
+        margin: 7px;
         margin-top: 20px;
         box-shadow: 0 0 1px 1px;
         text-align: center;
        }   
 
        .search{
-        margin: 40px;
+        margin: 40px 0 40px 0;
         size: 100px;
         padding: 10px;
         font-size: 20px;
         text-align: start;
        }
+
+      .video{
+        height: 500px;
+        width: 100%;
+        margin: 50px;
        
+      }
+
+      .media{
+        margin-top: 50px;
+        text-align: center;
+        background-color: aquamarine;
+        padding: 5px;
+        border: 10px double grey;
+        border-radius: 10px;
+        margin: 50px 200px 0 200px;
+
+      }
+      .copyright{
+        text-align: center;
+        font-size: 20px;
+      }
+
+      
+      

@@ -1,6 +1,6 @@
 
         @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
-         
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mukta:wght@700&display=swap');
         .container{
             background-color:rgb(15, 15, 86);
         }
@@ -31,8 +31,10 @@
         margin-top: 40px;
         border-radius: 50px;
         border: 3px solid black;
+        box-shadow:1px 1px 5px 5px rgb(88, 88, 101);
          }
 
+        
        .card{
         height:300px;
         width:500px;
@@ -62,11 +64,14 @@
         
        }
 
+       
        .social_media{
-       height: 30px;
-       margin:5px ;
-      float: inline-start;
-       }
+        height: 30px;
+        margin:5px ;
+       float: inline-start;
+        }
+
+        
 
        .navigation_bar{
        
@@ -77,7 +82,7 @@
        display: inline;
        margin-top: 100px;
        flex-direction: row;
-       border: 3px solid darkblue;
+       border: 3px solid grey;
        }
 
       .navigation_button{
@@ -138,6 +143,9 @@
         border: 10px double grey;
         border-radius: 10px;
         margin: 20px 200px 0 200px;
+        font-family: 'Mukta', sans-serif;
+        color: rgb(15, 15, 86);
+        
       }
 
 

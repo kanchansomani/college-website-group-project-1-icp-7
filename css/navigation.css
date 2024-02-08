@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  nav {
+    background-color:rgb(15, 15, 86);
+    padding: 10px;
+    float: right;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #ffcc00; /* Change the color on hover */
+  }
+  .btn{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px 20px;
+    color: white;
+  }
+  .btn:hover{
+    background-color: white;
+    color: black;
+  }

@@ -1,0 +1,199 @@
+.logo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: white;
+}
+.clgname {
+    font-size: 30px;
+    color: white ;
+
+}
+.loginhead {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(15, 15, 86);
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+.placement-img{
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+.training-heading{
+    margin-left: 10px;
+    padding-left: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 450px;
+    color:rgb(15, 15, 86) ;
+    border: 2px solid rgb(15, 15, 86);
+    border-radius: 10px;
+}
+.training-image{
+    margin-left: 20px;
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.skill-drive{
+    display: flex;
+}
+.skill-list{
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-weight: 200px;
+}
+.training-info{
+    font-size: 18px;
+    margin-left: 20px;
+
+}
+.teacher-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.training-teacher{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    background-color:  rgb(15, 15, 86);
+    border-radius: 20px;
+    padding-top: 20px;
+    width:100% ;
+    margin-left: 10px;
+ margin-right: 30px;
+}
+.img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.t-name{
+    color: white;
+}
+.Campus-heading{
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(15, 15, 86) ;
+    padding: 5px 80px;
+    border-radius: 20px;
+    color:rgb(15, 15, 86) ;
+    margin-left: 10px;
+}
+.company-image{
+    display: flex;
+   padding-left: 360px;
+    width: 800px;
+    height: 400px;
+}
+.package-heading{
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(15, 15, 86) ;
+    padding: 5px 80px;
+    border-radius: 20px;
+    color:rgb(15, 15, 86) ;
+    margin-left: 10px;
+}
+.package-table{
+    border: 2px solid black;
+}
+.table
+{
+    width: 1200px;
+    border:  2px solid black;
+    box-shadow: 10px 20px 20px 2px rgb(20, 19, 17);
+}
+.th
+{
+    background-color:wheat;
+}
+
+.td
+{
+    /* background-color:rgb(53, 53, 136); */
+    color:black;
+}
+
+.pn
+{
+    padding: 20px ;
+    font-size: 25px;
+   
+}
+
+/* FOOTER CSS */
+
+    .footer {
+        margin-top: 10px;
+        padding: 30px 30px 0 30px;
+        color: #ffffff;
+        background-color: rgb(0, 0, 0);
+        font-size: small;
+        font-weight: 600;
+    }
+    
+    .inner-footer {
+        display: flex;
+    }
+    
+    .container0 {
+        display: inline;
+    }
+    
+    .container1 {
+        width: 900px;
+        display: flex;
+        justify-content:space-around ;
+        align-items: center;
+    }
+    
+    .footer-title {
+        font-size: large;
+        margin-bottom: 0;
+    }
+    
+    .footer-logo {
+        width: 100px;
+        margin-left: 100px;
+        background-color: white;
+        border-radius: 50%;
+        
+    }
+    
+    .footer-name {
+        margin: 10px;
+    }
+    
+    span {
+        color: #ffffff;
+    }
+    
+    .contact-logo {
+        height: 20px;
+    }
+    
+    .footer-campuses {
+        text-decoration: none;
+        color: #092635;
+    }
+    
+    .footer-end {
+        display: block;
+        text-align: center;
+        margin-bottom: 5px;
+        padding: 10px;
+    }
+    .social_media{
+        width: 30px;
+    }

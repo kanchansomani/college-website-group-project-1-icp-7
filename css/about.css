@@ -92,6 +92,13 @@
     transition: 0.1s;
 }
 .fest{
-    height:250px;
-    width:250px;
+    height:235px;
+    width:235px;
 }
+.gallery{
+   margin-left: 13px;
+   margin-right: 13px;
+   margin-top: 20px;
+    
+}
+@media screen and (max-width:600px)

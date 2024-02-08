@@ -9,24 +9,37 @@ h1{
     text-align: center;
     color: red;
     text-decoration: underline;
+    font-size: 50px;
 }
 h2{
-    color: rgb(61, 61, 101);
+    color: white;
     text-decoration: underline;
     position: relative;
     padding-top: 10px;
 }
 .clgname{
+    padding-bottom: 10px;
+    padding-top: 10px;
     text-align: center;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(15, 15, 86);;
+    border-radius: 10px 10px 0px 0px ;
+    
 }
 form{
     text-align: center;
     border: 1px black solid;
     border-radius: 10px;
-    width: 800px;
-    margin-left: 100px;
+    width: 1000px;
+    margin-left: 200px;
     box-shadow: 10px 10px 5px 5px gray;
     background-color: rgb(222, 227, 205);
+    justify-content: center;
+}
+form:hover{
+    box-shadow: 10px 10px 10px 10px black;
 }
 .btn{
     background-color: red;
@@ -38,4 +51,13 @@ form{
     background-color: green ;
     color: white;
     border: 2px solid black;
+}
+.line{
+    color: white;
+}
+#I{
+    font-size: 30px;
+}
+.size{
+    font-size: 20px;
 }

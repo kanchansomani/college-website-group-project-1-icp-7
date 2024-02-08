@@ -195,52 +195,71 @@
     HEADER CODE
 
      <header>
-    <div class="college_name">SPRECTRUM COLLEGE OF ENGINEERING AND RESEARCH , PUNE.<br/>
-        <space class="grade"><b>Accredited "A+" grade by NAAC</b></space></div>
-   <img src="./img/university_logo-removebg-preview.png"
-   height="170px"class="logo"/>
-
-   &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
-   
-   <img src="./img/spectrum_college_logo-removebg-preview.png"
-   height="170px"class="logo"/>
-   </header> 
+    <div class="loginhead">
+      <img src="./../img/spectrum_college_logo-removebg-preview.png" alt="clg logo" class="logo"><h2 class="clgname"> &nbsp;&nbsp; Spectrum College Of Engineering and Research (Pune)</h2> 
+      <br><br>&nbsp;&nbsp;&nbsp;
+     <img src="./../img/training2.jpg" alt="placement img" class="placement-img">
+   </div>
+      <nav>
+        <ul>
+          <li><a href="./../index.html">Home</a></li>
+          <li><a href="./about.html" target="_blank">About</a></li>
+          <li><a href="./admission.html" target="_blank">Admission</a></li>
+          <li><a href="./examination.html" target="_blank">Examination</a></li>
+          <li><a href="./contact.html" target="_blank">Contact</a></li>
+          <li><a href="./grpproject.html" target="_blank">Department</a></li>
+          <li><a href="./training-and-placement.html">Training and Placement</a></li>
+          <li><a href="./Loginpage.html" target="_blank"><button class="btn">Login</button></a></li>
+        </ul>
+      </nav>
+ </header>
 
 
    HEADER CSS
 
-   .college_name{ 
-           background-color:rgb(216, 236, 244);
-           padding: 20px;
-           font-size: 30px;
-           color: rgb(15, 15, 86);
-           font-family: 'PT Serif', serif; 
-           text-align: center;
-           border-radius: 5px;
-           margin-left: 200px;
-           margin-right: 200px;
-           height: 100px;
-           margin-top: 40px;
-           border: 5px solid black;
-           box-shadow: 0 0 2px 2px grey;
-          }
-           
-       .grade{
-          color:  rgb(15, 15, 86);
-          font-size: 30px;
-          font-family: 'PT Serif', serif;
-          padding-bottom: 5px;
-         }
-
-         .logo{
-        margin-top:-170px;
-        height:"200px";
-        border-radius: 50%;
-        border: 2px solid black;
-        border-radius: 50%;
-        background-color: #ffffff;
-        margin-left: 2px;
-
+   body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  nav {
+    background-color:rgb(15, 15, 86);
+    padding: 10px;
+    float: right;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #ffcc00; 
+  }
+  .btn{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px 20px;
+    color: white;
+  }
+  .btn:hover{
+    background-color: white;
+    color: black;
+  }
 
 
 */

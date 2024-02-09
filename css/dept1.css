@@ -13,17 +13,27 @@
     font-family: "Cinzel", serif;
     font-size: 40px;
     position: relative;
-    bottom: 70px;
-    left: 30px;
+    bottom: 130px;
+    left: 50px;
 }
 .logo{
     position: relative;
+    
     right:650px;
-    height:100px;
-    top: 50px;
+    height:90px;
+    top: 45px;
         border-radius: 50%;
         border: 4px solid black;
 
+}
+.logo1{
+    position: relative;
+    height: 90px;
+    left: 20px;
+    border-radius: 50%;
+    top: 40px;
+    border-radius: 50%;
+    border: 4px solid black;
 }
 .name{
    
@@ -36,8 +46,8 @@
 }
 .tagline{
     position: relative;
-    width: 500px;
-    left: 480px;
+    width: 700px;
+    left: 380px;
     color: aliceblue;
     border-radius: 30px;
     border: 3px solid black;
@@ -310,14 +320,14 @@
 .but2{
     
         position: relative;
-     right: 120px;
-        height: 50px;
-        width: 50px;
+     right: 140px;
+        height: 40px;
+        width: 70px;
        top: 140px;
-        border-radius: 50%;
+       border-radius: 5px;
         background-color: darkblue;
         color: rgb(216, 236, 244) ;
-        border: 2px solid black;
+        border: 3px solid black;
 }
 .but2:hover{
     transition: 0.3s;
@@ -327,10 +337,10 @@
 .but4{
             position: relative;
      left: 120px;
-        height: 50px;
-        width: 50px;
+        height: 40px;
+        width: 70px;
        bottom: 90px;
-        border-radius: 50%;
+       border-radius: 5px;
         background-color: darkblue;
         color: rgb(177, 204, 248);
         border: 2px solid black;
@@ -369,11 +379,11 @@
 }
 .but6{
     position: relative;
-    right: 185px;
-       height: 50px;
-       width: 50px;
+    right: 170px;
+       height: 40px;
+       width: 70px;
        top: 140px;
-       border-radius: 50%;
+       border-radius: 5px;
        background-color:darkblue;
        color: rgb(216, 236, 244) ; 
        border: 2px solid black;
@@ -401,11 +411,11 @@
 }
 .but8{
     position: relative;
-    left: 120px;
-       height: 50px;
-       width: 50px;
+    left: 130px;
+       height: 40px;
+       width: 70px;
       bottom: 130px;
-       border-radius: 50%;
+      border-radius: 5px;
        background-color: darkblue;
        color: rgb(216, 236, 244) ;
        border: 2px solid black;
@@ -449,10 +459,10 @@
 .but12{
     position: relative;
     right: 40px;
-       height: 50px;
-       width: 50px;
+       height: 40px;
+       width: 70px;
      top: 130px;
-       border-radius: 50%;
+     border-radius: 5px;
        background-color:darkblue;
        color: rgb(216, 236, 244) ;
        border: 2px solid black;
@@ -465,10 +475,10 @@
 .but13{
     position: relative;
     right: 160px;
-       height: 50px;
-       width: 50px;
+       height: 40px;
+       width: 70px;
      top: 130px;
-       border-radius: 50%;
+     border-radius: 5px;
        background-color:darkblue;
        color: rgb(216, 236, 244) ;
        border: 2px solid black;

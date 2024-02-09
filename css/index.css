@@ -103,7 +103,62 @@
        border-radius:10px;
        color: black;
       }
+
+      .menu_bar{
        
+        font-size: 15px;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 5px;
+        background-color:grey;
+        margin-left: 22px;
+        margin-right:22px;
+        justify-content: space-between;
+        color: white;
+        }
+ 
+      }
+
+      .menu_bar ul{
+        list-style: none;
+        display: flex;
+        font-size: 30px;
+        justify-content: space-between;
+      }
+
+      .menu_bar ul li{
+        position: relative;
+      }
+       
+      .menu_bar ul li a{
+        font-size: 25px
+      }
+
+      .menu_bar ul li :hover{
+        color:skyblue;
+      }
+ 
+      .dropdown_menu{
+        display: none;
+      }
+
+      .menu_bar ul li :hover.dropdown_menu{
+        display: block;
+        position: absolute;
+        left: 0;
+        height: 100%;
+        font-size: 20px;
+      }
+
+      .menu_bar ul li  :hover.dropdown_menu ul{
+        display: block;
+        margin: 10px;
+      }
+
+      .menu_bar ul li .dropdown_menu ul li{
+        width: 200px;
+        padding: 10px;
+        background-color: skyblue;
+      }
 
        .notice-card{
         height:100px;

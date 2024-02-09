@@ -1,34 +1,55 @@
-.body
+body
 {
-
+    background-color:rgb(15, 15, 86);
 }
-
 .UG
 {
     border: 2px solid black;
-    height:620px;
-    width:900px;
+    height:640px;
+    margin: 50px;
     text-align: center;
     color:black;
     font-size: 20px;
-    box-shadow: 10px 20px 20px 4px rgb(20, 19, 17);
+    box-shadow: 5px 5px 5px 2px  rgb(169, 230, 248);
+    background-color: aliceblue;
+}
+@media screen and (max-width:768px)
+{
+    .UG
+    {
+        text-align: justify;
+        height: 540px;
+        font-size: 12px;
+    }
 }
 .UG:hover
 {
     border: 4px solid black;
-    box-shadow: 5px 10px 10px 2px rgb(20, 19, 17);
+    box-shadow: 5px 5px 5px 2px  rgb(169, 230, 248);
 }
+
 
 .title
 {
-    font-size: 25px;
-    border-bottom: solid black 1px;
+    font-size: 35px;
+    border-bottom: solid black 2px;
     text-align: center;
-    background-color:rgb(53, 53, 136);
+    background-color:  rgb(216, 236, 244);
     padding: 20px 20px;
     font-weight: bold;
-    color: white;
+    color: black;
+    font-family: Bahnschrift Condensed;
 }
+@media screen and (max-width:768px)
+{
+    .title
+    {
+        font-size: 25px;
+        text-align: center
+    }
+}
+
+
 .ol
 {
  text-align:left;
@@ -36,41 +57,108 @@
 }
 
 
-.PG
+.UG2
 {
     border: 2px solid black;
-    height: 570px;
-    width:900px;
+    height: 590px;
+    margin: 50px;
     text-align: center;
     color:black;
     font-size: 20px;
-    box-shadow: 10px 20px 20px 4px rgb(20, 19, 17);
+    box-shadow: 5px 5px 5px 2px  rgb(169, 230, 248);
+    background-color: aliceblue;
+}
+@media screen and (max-width:768px)
+{
+    .UG2
+    {
+        text-align: justify;
+        height: 510px;
+        font-size: 12px;
+    }
 }
 
-.PG:hover
+
+.UG2:hover
 {
     border: 4px solid black;
-    box-shadow: 5px 10px 10px 2px rgb(20, 19, 17);
+    box-shadow: 5px 5px 5px 2px  rgb(169, 230, 248);
 }
+
 
 .master
 {
     border: 2px solid black;
-    height: 580px;
-    width:900px;
+    height: 610px;
+    margin: 50px;
     text-align: center;
     color:black;
     font-size: 20px;
-    box-shadow: 10px 20px 20px 4px rgb(20, 19, 17);
+    box-shadow: 5px 5px 5px 2px  rgb(169, 230, 248);
+    background-color: aliceblue;
 }
+@media screen and (max-width:768px)
+{
+    .master
+    {
+        text-align: justify;
+        height: 510px;
+        font-size: 12px;
+    }
+}
+
 
 .master:hover
 {
     border: 4px solid black;
-    box-shadow: 5px 10px 10px 2px rgb(20, 19, 17);
+    box-shadow: 5px 5px 5px 2px  rgb(169, 230, 248);
 }
 
 .note
 {
     text-align: left;
 }
+
+
+
+
+.img
+{
+    height: 300px;
+    width: 1300px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px 2px  rgb(169, 230, 248);
+    float: center;
+    margin: 10px;
+}
+@media screen and (max-width:768px)
+{
+    .img
+    {
+        height:200px;
+        width: 400px;
+        margin-left:30px;
+        margin-right:50px;
+        float: center;
+    }  
+}
+
+
+
+h1{
+    font-size: 50px;
+    position: absolute;
+    text-align:right;
+    color:black;
+    padding: 20px;
+}
+@media screen and (max-width:768px)
+{
+    h1
+    {
+        font-size: 30px;
+        padding-left: 60px;
+
+    }
+}
+

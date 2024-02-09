@@ -20,6 +20,7 @@
     display:inline;  
     margin-left: 30px;
     border: 7px solid rgb(119, 118, 118);
+    alt:college image;
 }
 .points{
     margin-left: 30px;
@@ -55,6 +56,7 @@
     width: 300px;
     height: 200px;
     border-radius: 10px;
+    alt:xx;
 }
 .cards{
     display: flex;
@@ -71,6 +73,7 @@
     width:250px;
     height: 250px;
     border-radius: 50%;
+    alt:teachers-photo;
 }
 .last{
     height: 300px;
@@ -94,11 +97,74 @@
 .fest{
     height:235px;
     width:235px;
+    alt:gallery;
 }
 .gallery{
    margin-left: 13px;
    margin-right: 13px;
    margin-top: 20px;
-    
+} 
+@media screen and (max-width:800px){
+ .college_name{
+    font-size: 20px;
+    height: 60px;
+ }
+ .main-heading{
+    font-size: 40px;
+ }
+ .about-main{
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+ .img1{
+    width:320px;
+    display:inline;  
+    margin-left: 30px;
+ }
+ .divisions {
+    font-size: 25px; 
 }
-@media screen and (max-width:600px)
+.people{
+    width:150px;
+    height: 150px;
+    alt:teachers-photo;
+}
+.fest{
+    height:200px;
+    width:200px;
+}
+}
+
+@media screen and (min-width:800px) and (max-width:992px){
+    .college_name{
+        font-size: 20px;
+        height: 60px;
+     }
+     .main-heading{
+        font-size: 47px;
+     }
+     .about-main{
+        font-size: 18px;
+        margin-left: 10px;
+        margin-right: 10px;
+     }
+     .img1{
+        width:450px;
+        display:inline;  
+        margin-left: 30px;
+        alt:college-image;
+     }
+     .divisions {
+        font-size: 25px; 
+    }
+    .people{
+        width:150px;
+        height: 150px;
+        alt:teachers-photo;
+    }
+    .fest{
+        height:200px;
+        width:200px;
+    }
+}

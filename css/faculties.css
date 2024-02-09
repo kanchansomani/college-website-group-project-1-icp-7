@@ -63,3 +63,33 @@
     justify-content: space-evenly; 
     margin-bottom: 30px;
 }
+
+@media screen and (max-width:800px){
+    .l1{
+        font-size:40px;
+        color:rgb(6, 24, 96);
+        font-family: 'Philosopher', sans-serif;
+        margin-left:20px;
+        font-weight: 500;
+        text-shadow: 2px 2px 3px rgb(149, 144, 144); 
+        text-align:left;
+    }
+    .l2{
+        color:black; 
+        font-size: 20px;
+        text-align: right;
+        font-weight: 800;
+        margin-right: 70px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif
+    }
+    .l3{
+        font-size: 20px;
+        padding: 0 15px;
+    }
+    .heading-faculty{
+        font-size: 40px;
+        color:white;
+        text-align:center;
+        background-color: rgb(15,15,86) ;
+    }
+}

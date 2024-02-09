@@ -4,7 +4,9 @@
         .container{
             background-color:rgb(15, 15, 86);
         }
+
        .college_name{ 
+        
            background-color:rgb(216, 236, 244);
            padding: 20px;
            font-size: 30px;
@@ -12,27 +14,64 @@
            font-family: 'PT Serif', serif; 
            text-align: center;
            border-radius: 5px;
-           margin-left: 200px;
-           margin-right: 200px;
            height: 100px;
            margin-top: 40px;
            border: 5px solid black;
            box-shadow: 0 0 2px 2px grey;
+           margin-left: 200px;
+           margin-right: 200px;
+          
           }
-           
+          @media screen and (max-width:768px)
+          {
+              .college_name
+              {
+                    margin-top: 20px;
+                    width: 250px;
+                    background-color:rgb(216, 236, 244);
+                    padding: 10px;
+                    font-size: 20px;
+                    margin-top: 20px;
+                    box-shadow: 0 0 2px 2px grey;
+                    margin-left: 100px;
+                    margin-right: 100px;
+                    
+              }
+          }
+          
        .grade{
           color:  rgb(15, 15, 86);
           font-size: 30px;
           font-family: 'PT Serif', serif;
           padding-bottom: 5px;
+          position: absolute;
+          text-align: center;
+          margin-right: 200px;
          }
-       
+         @media screen and (max-width:768px)
+         {
+             .grade
+             {
+              font-size: 15px;
+              position: absolute;
+              text-align: center;
+             }
+         }
        .image{
         margin-top: 40px;
         border-radius: 50px;
         border: 3px solid black;
         box-shadow:1px 1px 5px 5px rgb(88, 88, 101);
          }
+
+         @media screen and (max-width:768px)
+{
+    .image
+    {
+        margin-top: 40px;
+        width: 450px;
+    }
+}
 
         
        .card{
@@ -53,15 +92,29 @@
         margin: 20px;
        }
 
-       .logo{
-        margin-top:-170px;
-        height:"200px";
+       .logo-right{
+        height:200px;
         border-radius: 50%;
         border: 2px solid black;
-        border-radius: 50%;
         background-color: #ffffff;
         margin-left: 2px;
-        
+        position: absolute;
+        display: inline;
+        margin-top: 10px;
+       }
+       @media screen and (max-width:768px)
+       {
+           .logo
+           {
+            margin-top:10px;
+            height:80px;
+            border-radius: 50%;
+            border: 2px solid black;
+            background-color: #ffffff;
+            margin-left: 2px;
+            position: absolute;
+           
+           }
        }
 
        
@@ -73,7 +126,7 @@
 
         
 
-       .navigation_bar{
+       /* .navigation_bar{
        
        background-color: rgb(216, 236, 244);
        padding: 15px;
@@ -102,21 +155,17 @@
        box-shadow: 1px 1px 1px 1px black;
        border-radius:10px;
        color: black;
-      }
+      } */
 
       .menu_bar{
-       
-        font-size: 15px;
-        border: 2px solid rgb(0, 0, 0);
-        border-radius: 5px;
-        background-color:grey;
-        margin-left: 22px;
-        margin-right:22px;
+        display: flex;
         justify-content: space-between;
-        color: white;
+        position: relative;
+        align-items: center;
+        padding: 0.5%;
         }
  
-      }
+     
 
       .menu_bar ul{
         list-style: none;
@@ -136,30 +185,26 @@
       .menu_bar ul li :hover{
         color:skyblue;
       }
- 
+
       .dropdown_menu{
         display: none;
       }
-
       .menu_bar ul li :hover.dropdown_menu{
         display: block;
         position: absolute;
         left: 0;
-        height: 100%;
+        top: 100%;
         font-size: 20px;
       }
-
       .menu_bar ul li  :hover.dropdown_menu ul{
         display: block;
         margin: 10px;
       }
-
-      .menu_bar ul li .dropdown_menu ul li{
+      .menu_bar ul li :hover .dropdown_menu ul li{
         width: 200px;
         padding: 10px;
         background-color: skyblue;
       }
-
        .notice-card{
         height:100px;
         width: 30%;
@@ -173,7 +218,22 @@
         box-shadow: 0 0 3px 3px;
         text-align: justify;
         justify-content: space-between;
-       }   
+       } 
+       @media screen and (max-width:768px)
+{
+    .notice-card
+    {
+        margin: 7px;
+        width: 450px;
+        height:100px;
+        padding: 5px;
+        font-size: 20px;
+        margin-top: 10px;
+        box-shadow: 0 0 3px 3px;
+        text-align: justify;
+        justify-content: space-between; 
+    }
+}
 
        .search{
         margin: 20px 0 20px 0;
@@ -189,6 +249,15 @@
         width: 100%;
         margin: 50px; 
       }
+      @media screen and (max-width:768px)
+      {
+          .video
+          {
+              margin-top: -100px;
+              width: 350px;
+          }
+      }
+
 
       .media{
         margin-top: 10px;
@@ -202,7 +271,17 @@
         color: rgb(15, 15, 86);
         
       }
-
+      @media screen and (max-width:768px)
+{
+    .media
+    {
+        margin-top: 10px;
+        text-align: center;
+        font-family: 'Mukta', sans-serif;
+        padding: 5px;
+        margin: 20px 100px 0 100px;
+    }
+}
 
       .facilities{
         height: 40px;
@@ -214,6 +293,15 @@
         border: 3px solid black;
         background-color:  #b1dddf;
       }
+      @media screen and (max-width:768px)
+      {
+          .facilities
+          {
+              margin-top: 20px;
+              width: 350px;
+              font-size: 20px;
+          }
+      }
 
       .items{
        float: left;
@@ -222,6 +310,8 @@
        padding: 2px;
 
       }
+      
+
 
       .footer {
         margin-top: 10px;
@@ -231,7 +321,16 @@
         font-size: small;
         font-weight: 600;
     }
-    
+    @media screen and (max-width:768px)
+      {
+          .footer
+          {
+            margin-top: 10px;
+            padding: 15px 15px 0 15px;
+            font-size: 10px;
+            font-weight: 200;
+          }
+      }
     .inner-footer {
         display: flex;
     }
@@ -239,6 +338,13 @@
     .container0 {
         display: inline;
     }
+    @media screen and (max-width:768px)
+      {
+          .container0
+          {
+            display: inline;
+          }
+      }
     
     .container1 {
         width: 900px;
@@ -246,6 +352,13 @@
         justify-content:space-around ;
         align-items: center;
     }
+    @media screen and (max-width:768px)
+      {
+          .container1
+          {
+            display: inline;
+          }
+      }
     
     .footer-title {
         font-size: large;
@@ -254,10 +367,16 @@
     
     .footer-logo {
         width: 100px;
-        margin-left: 100px;
-        
-        
+        margin-left: 100px;  
     }
+    @media screen and (max-width:768px)
+      {
+          .footer-logo
+          {
+            margin-left: 20px;
+            margin-right: 20px;
+          }
+      }
     
     .footer-name {
         margin: 10px;

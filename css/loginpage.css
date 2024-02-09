@@ -13,7 +13,10 @@ body{
     text-align: center;
     font-size: 30px;
 }
-.heading {
+.clgname {
+    color:rgb(15, 15, 86);
+}
+.heading{
     color:rgb(15, 15, 86);
 }
 .logo {

@@ -1,11 +1,8 @@
 .main-heading{  
-    color:black;
+    color:white;
     font-size: 55px; 
-    margin-left: 20px;
-    margin-right: 20px;
     text-align: center;
-    background-image: url("../img/clg1.avif");
-    
+    background-color:rgb(15, 15, 86); 
 }
 .about-main{
     text-align: left;
@@ -13,33 +10,29 @@
     margin-left: 30px;
     margin-right: 30px;
     display: flex;
-    padding: 10px 20px;
+ 
 }
 .about{
-    font-size: 20px;
+  font-size:20px;
 }
 .img1{
     width:500px;
     display:inline;  
     margin-left: 30px;
     border: 7px solid rgb(119, 118, 118);
+    alt:college image;
 }
 .points{
-    padding-top: 0;
     margin-left: 30px;
     margin-right: 30px;
-    font-size: larger;
-}
-
-.vision{
-    height: 80px;
-    font-size:20px;
-    text-align: center;
-    align-items: center;
-    background-color: rgb(76, 76, 247);
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 25px;
+    text-align:center;
 }
 .heading{
-    font-size:20px;
+    font-size:25px;
+    font-style: italic;
 }
 .divisions {
     font-size: 30px; 
@@ -47,19 +40,131 @@
     text-decoration: none; 
     text-align: center;
     display: inline-block;
-    margin: 20px;
+    margin: 10px;
     border-radius: 10px;
-    background-color: #3990c2; 
-    color: #fff;
+    background-color:rgb(15, 15, 86); 
+    color: white;
 
   }
+
+  .divisions:hover{
+    box-shadow:5px 5px 10px black;
+    transition: 0.3s;
+  }
+
 .div-img{
     width: 300px;
     height: 200px;
     border-radius: 10px;
+    alt:xx;
 }
 .cards{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly; 
+}
+.main-people{
+    width:500px;
+    display: block;
+    text-align:center;
+
+}
+.people{
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+    alt:teachers-photo;
+}
+.last{
+    height: 300px;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(15, 15, 86);
+    margin-bottom:20px; 
+}
+.xxtt{
+    background-color:rgb(181, 210, 242) ;
+    padding: 5px 5px;
+    border: 0.5px solid black;
+    margin-top: 8px;
+    border-radius: 6px;
+}
+.xxtt:hover{
+    box-shadow: inset 0 0 5px rgb(21, 21, 185);;
+    transition: 0.1s;
+}
+.fest{
+    height:235px;
+    width:235px;
+    alt:gallery;
+}
+.gallery{
+   margin-left: 13px;
+   margin-right: 13px;
+   margin-top: 20px;
+} 
+@media screen and (max-width:800px){
+ .college_name{
+    font-size: 20px;
+    height: 60px;
+ }
+ .main-heading{
+    font-size: 40px;
+ }
+ .about-main{
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+ .img1{
+    width:320px;
+    display:inline;  
+    margin-left: 30px;
+ }
+ .divisions {
+    font-size: 25px; 
+}
+.people{
+    width:150px;
+    height: 150px;
+    alt:teachers-photo;
+}
+.fest{
+    height:200px;
+    width:200px;
+}
+}
+
+@media screen and (min-width:800px) and (max-width:992px){
+    .college_name{
+        font-size: 20px;
+        height: 60px;
+     }
+     .main-heading{
+        font-size: 47px;
+     }
+     .about-main{
+        font-size: 18px;
+        margin-left: 10px;
+        margin-right: 10px;
+     }
+     .img1{
+        width:450px;
+        display:inline;  
+        margin-left: 30px;
+        alt:college-image;
+     }
+     .divisions {
+        font-size: 25px; 
+    }
+    .people{
+        width:150px;
+        height: 150px;
+        alt:teachers-photo;
+    }
+    .fest{
+        height:200px;
+        width:200px;
+    }
 }

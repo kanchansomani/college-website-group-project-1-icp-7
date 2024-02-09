@@ -13,14 +13,15 @@
     font-family: "Cinzel", serif;
     font-size: 40px;
     position: relative;
-    bottom: 120px;
+    bottom: 130px;
     left: 50px;
 }
 .logo{
     position: relative;
+    
     right:650px;
-    height:100px;
-    top: 50px;
+    height:90px;
+    top: 45px;
         border-radius: 50%;
         border: 4px solid black;
 

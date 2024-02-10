@@ -1,0 +1,91 @@
+.logo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: white;
+}
+.clgname {
+    font-size: 30px;
+    color: white ;
+
+}
+.loginhead {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(15, 15, 86);
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+.placement-img{
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.footer {
+    margin-top: 10px;
+    padding: 30px 30px 0 30px;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    font-size: small;
+    font-weight: 600;
+}
+
+.inner-footer {
+    display: flex;
+}
+
+.container0 {
+    display: inline;
+}
+
+.container1 {
+    width: 900px;
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+}
+
+.footer-title {
+    font-size: large;
+    margin-bottom: 0;
+}
+
+.footer-logo {
+    width: 100px;
+    margin-left: 100px;
+    
+    
+}
+
+.footer-name {
+    margin: 10px;
+}
+
+span {
+    color: #ffffff;
+}
+
+.contact-logo {
+    height: 20px;
+}
+
+.footer-campuses {
+    text-decoration: none;
+    color: #092635;
+}
+
+.footer-end {
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.social_media{
+    height: 30px;
+}

@@ -110,6 +110,7 @@
             border-radius: 50%;
             border: 2px solid black;
             background-color: #ffffff;
+            margin: 0 right;
            }
        }
        
@@ -143,13 +144,15 @@
         
         .search{
          
-        margin-right: 10px;
+        margin-right: 5px;
+        margin-left: 10px;
         size: 2px;
         padding: 7px;
-        font-size: 12px;
+        font-size: 8px;
         text-align: start;
         color: rgb(0, 0, 0);
         background-color:rgb(216, 236, 244);
+       
         }
         
        .menu_bar
@@ -160,6 +163,8 @@
            position: relative;
            padding-top:1px ;
            margin:0;
+           
+          padding: 8px;
         
         }
         @media screen and (max-width:768px)
@@ -174,7 +179,7 @@
         .nevigation_bar
         {
         
-        padding-left: 50px;
+        padding-left: 60px;
         justify-content:space-between;
         
       
@@ -195,13 +200,12 @@
           font-size: 20px;
           color:black;
           background-color:rgb(216, 236, 244);
-          border-radius: 10%;
-          margin: 8px;
-          padding: 8px;
+          padding: 10px;
+         
         }
         .menu_bar ul li a:hover
         {
-         color: green;
+         color: rgb(234, 70, 0);
         
         }
         .dropdown_menu

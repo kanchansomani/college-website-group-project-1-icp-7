@@ -8,6 +8,7 @@ body {
     background-color:rgb(15, 15, 86);
     padding: 10px;
     float: right;
+    
   }
   
   ul {
@@ -19,6 +20,7 @@ body {
   
   li {
     margin-right: 20px;
+    
   }
   
   a {

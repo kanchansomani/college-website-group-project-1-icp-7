@@ -37,7 +37,6 @@
 .navigation_bar{
     width:73%;
     margin-left:20px;
-   
     justify-content:space-between;
     padding-left: 40px;
     background-color:rgb(216, 236, 244);
@@ -153,6 +152,7 @@
    margin-right: 13px;
    margin-top: 20px;
 } 
+
 @media screen and (max-width:800px){
  .college_name{
     font-size: 20px;
@@ -182,6 +182,20 @@
 .fest{
     height:200px;
     width:200px;
+}
+.xxtt{
+    background-color:rgb(174, 213, 255) ;
+    padding: 5px 5px;
+    border: 0.5px solid black;
+    margin-top: 8px;
+    border-radius: 6px;
+}
+.about{
+    font-size:16px;
+}
+.heading{
+    font-size:23px;
+    font-style: italic;
 }
 }
 
@@ -215,6 +229,20 @@
     .fest{
         height:200px;
         width:200px;
+    }
+    .xxtt{
+        background-color:rgb(174, 213, 255) ;
+        padding: 5px 5px;
+        border: 0.5px solid black;
+        margin-top: 8px;
+        border-radius: 6px;
+    }
+    .about{
+        font-size:20px;
+    }
+    .heading{
+        font-size:25px;
+        font-style: italic;
     }
 }
 

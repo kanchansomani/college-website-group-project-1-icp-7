@@ -1,5 +1,5 @@
 .college_name{
-    font-size:50px;
+    font-size:45px;
     padding-top: 20px;
     margin-left:30px;
     margin-right:30px;
@@ -160,8 +160,8 @@
     transition: 0.1s;
 }
 .fest{
-    height:235px;
-    width:235px;
+    height:230px;
+    width:230px;
     alt:gallery;
 }
 .gallery{

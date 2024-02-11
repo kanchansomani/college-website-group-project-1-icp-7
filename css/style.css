@@ -196,8 +196,7 @@
 
     HEADER CODE
 
-     <header>
-     <div class="cr" style="background-color: rgb(15,15,86); padding-top:30px">
+        <div class="cr" style="background-color: rgb(15,15,86); padding-top:30px; display:flex; justify-content: space-evenly;">
       <header>
       <div class="head-main">
       <div><img src="./../img/spectrum_college_logo-removebg-preview.png"
@@ -207,9 +206,8 @@
         <p  style="font-size:25px;padding-bottom:20px"><b>Accredited "A+" grade by NAAC</b></p></div>
         <div><img src="./../img/university_logo-removebg-preview.png"
               style="height:160px;background-color: white; border-radius:50%; margin-right:50px"class="logo"/></div>  
-        </div>      
-      </header> 
-    
+        </div>   
+
   <div class="navigation_bar" class="navigation_button" >
        <a href="./../index.html" target="_blank"><button class="navigation_button" >Home</button></a>
        <a href="./Loginpage.html" target="_blank"><button class="navigation_button" >Login</button></a>
@@ -220,22 +218,26 @@
        <a href="./training-and-placement.html" target="_blank"><button class="navigation_button" >Training and Placement</button></a>
        <a href="./contact.html" target="_blank"><button class="navigation_button" >Contact</button></a>
        
-        <label for="Search" style="color:white"><b>Search:</b></label>
+        <label for="Search" style="color:black"><b>Search:</b></label>
         <input type="text" id="Search" class="search" requird placeholder="Type here to search"> 
     
     </div>
         <hr />    <hr />
+      </header>
   </div>
- </header>
-
 
    HEADER CSS
 
-   .college_name{
+   .cr{
+    height:auto;
+}
+.college_name{
     font-size:45px;
+    height: 160px;
     padding-top: 20px;
     margin-left:30px;
     margin-right:30px;
+    margin-bottom:30px;
     background-color: ;
     color: rgb(15, 15, 86);
     font-family: 'PT Serif', serif; 
@@ -247,10 +249,11 @@
    }
 
 .head-main{
-    height:280px;
     display:flex;
+    justify-content: space-around;
     font-size:60px;
-    justify-content: space-around;}
+
+}
 .grade{
     text-align:center;
     color:  rgb(15, 15, 86);
@@ -263,34 +266,17 @@
 }
 .navigation_bar{
     width:73%;
-    display:flex;
-    justify-content:space-evenly;
+    margin-left:20px;
+   
+    justify-content:space-between;
+    padding-left: 40px;
+    background-color:rgb(216, 236, 244);
+  padding: 8px 0px;
 }
-  
-  li {
-    margin-right: 20px;
-  }
-  
-  a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-  }
-  
-  a:hover {
-    color: #ffcc00; 
-  }
-  .btn{
-    background-color: transparent;
-    border: 2px solid white;
-    border-radius: 10px;
-    padding: 5px 20px;
-    color: white;
-  }
-  .btn:hover{
-    background-color: white;
-    color: black;
-  }
+.navigation_button{
+    margin-left: 20px;
+
+}
 
 
 */

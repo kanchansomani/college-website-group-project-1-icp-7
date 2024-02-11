@@ -9,10 +9,6 @@
   college name font
    @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
 
-   
-
-
-
   FOOTER CODE::
 
   <!--Footer-->
@@ -266,6 +262,66 @@
     background-color: white;
     color: black;
   }
+
+
+
+
+
+  footer responsiveness code
+
+
+  @media screen and (max-width:768px) {
+  .footer {
+    margin-top: 10px;
+    padding: 15px 15px 0 15px;
+    font-size: 10px;
+    font-weight: 200;
+  }
+}
+
+
+
+Header responsiveness code
+
+
+@media screen and (max-width:768px) {
+  .college_name {
+
+    width: 230px;
+    height: 200px;
+    padding: 0;
+    font-size: 25px;
+    margin-left: 130px;
+    margin-right: 100px;
+    margin-bottom: -20px;
+  }
+}
+@media screen and (max-width:768px) {
+  .grade {
+    font-size: 15px;
+
+    text-align: center;
+  }
+}
+@media screen and (max-width:768px) {
+  .logo {
+
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: #ffffff;
+    margin: 0 right;
+  }
+}
+
+
+Navigation baar responsiveness code
+
+@media screen and (max-width:768px) {
+  .menu_bar {
+    display: none;
+  }
+}
 
 
 */

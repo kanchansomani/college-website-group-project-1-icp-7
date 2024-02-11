@@ -121,6 +121,7 @@ text-align: center;
     box-shadow: 5px 5px 5px 2px  rgb(169, 230, 248);
     float: center;
     margin: 10px;
+   
 }
 @media screen and (max-width:768px)
 { .img

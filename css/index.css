@@ -9,7 +9,7 @@
           .container{
             background-color:rgb(15, 15, 86);
             padding-top: 30px;
-<<<<<<< HEAD
+
         }
        .college_name{ 
         
@@ -24,10 +24,8 @@
            border: 5px solid black;
            box-shadow: 0 0 2px 2px grey;
            margin-left: 200px;
-           margin-right: 200px;
-          
-=======
-            display: inline;
+           margin-right: 200p;
+                       display: inline;
             position: relative;
           }
           .college_name{ 
@@ -46,7 +44,7 @@
           border: 5px solid black;
           box-shadow: 0 0 2px 2px grey;
          
->>>>>>> 1476acb6d6a0a124343f15a38cbebc13e94e1499
+
           }
           @media screen and (max-width:768px)
           {

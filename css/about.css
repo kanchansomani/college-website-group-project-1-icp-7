@@ -1,3 +1,41 @@
+.college_name{
+    height:120px;
+    font-size:50px;
+    padding-top: 20px;
+    margin-left:30px;
+    margin-right:30px;
+    font-size: 40px;
+    background-color:rgb(216, 236, 244);
+    color: rgb(15, 15, 86);
+    font-family: 'PT Serif', serif; 
+    text-align:center;
+    border-radius: 5px;
+    border: 5px solid black;
+    box-shadow: 0 0 2px 2px grey;
+   }
+
+.head-main{
+    height:230px;
+    display:flex;
+    font-size:60px;
+    justify-content: space-around;
+}
+.grade{
+    text-align:center;
+    color:  rgb(15, 15, 86);
+    font-size: 25px;
+    font-family: 'PT Serif', serif;
+    padding-bottom: 5px;
+    position: absolute;
+    margin-right: 200px;
+
+}
+.navigation_bar{
+    width:73%;
+    display:flex;
+    justify-content:space-evenly;
+}
+
 .main-heading{  
     color:white;
     font-size: 55px; 
@@ -83,6 +121,35 @@
     background-color:rgb(15, 15, 86);
     margin-bottom:20px; 
 }
+
+.college_name{
+    width:2000px;
+    height:130px;
+    font-size:50px;
+    padding: 20px 0px;
+    text-align:center;
+    font-size: 40px;
+
+}
+.logo{
+    margin-left:0;
+    margin-right:0;
+}
+.head-main{
+    height:230px;
+    display:flex;
+    font-size:60px;
+    justify-content: space-around;
+}
+.grade{
+    text-align:center;
+}
+.navigation_bar{
+    width:73%;
+    display:flex;
+    justify-content:space-evenly;
+}
+
 .xxtt{
     background-color:rgb(181, 210, 242) ;
     padding: 5px 5px;
@@ -167,4 +234,70 @@
         height:200px;
         width:200px;
     }
+}
+
+/* FOOTER CSS */
+
+.footer {
+    margin-top: 10px;
+    padding: 30px 30px 0 30px;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    font-size: small;
+    font-weight: 600;
+}
+
+.inner-footer {
+    display: flex;
+}
+
+.container0 {
+    display: inline;
+}
+
+.container1 {
+    width: 900px;
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+}
+
+.footer-title {
+    font-size: large;
+    margin-bottom: 0;
+}
+
+.footer-logo {
+    width: 100px;
+    margin-left: 100px;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+
+.footer-name {
+    margin: 10px;
+}
+
+span {
+    color: #ffffff;
+}
+
+.contact-logo {
+    height: 20px;
+}
+
+.footer-campuses {
+    text-decoration: none;
+    color: #092635;
+}
+
+.footer-end {
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.social_media{
+    width: 30px;
 }

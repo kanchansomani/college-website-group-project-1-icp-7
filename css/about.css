@@ -146,11 +146,21 @@
     height:230px;
     width:230px;
     alt:gallery;
+    margin:1px;
+}
+.fest:hover{
+    height:235px;
+    width:235px;
+    alt:gallery;
+    margin:1px;
+    box-shadow: 1px solid black;
+    transition: 0.3s;
 }
 .gallery{
-   margin-left: 13px;
-   margin-right: 13px;
+    margin-left: 15px;
+    margin-right: 12px;
    margin-top: 20px;
+   justify-content: space-evenly;
 } 
 
 @media screen and (max-width:800px){
@@ -180,8 +190,18 @@
     alt:teachers-photo;
 }
 .fest{
-    height:200px;
-    width:200px;
+    height:180px;
+    width:180px;
+    alt:gallery;
+    margin:1px;
+}
+.fest:hover{
+    height:180px;
+    width:180px;
+    alt:gallery;
+    margin:1px;
+    box-shadow: 1px solid black;
+    transition: 0.3s;
 }
 .xxtt{
     background-color:rgb(174, 213, 255) ;
@@ -229,6 +249,16 @@
     .fest{
         height:200px;
         width:200px;
+        alt:gallery;
+        margin:1px;
+    }
+    .fest:hover{
+        height:200px;
+        width:200px;
+        alt:gallery;
+        margin:1px;
+        box-shadow: 1px solid black;
+        transition: 0.3s;
     }
     .xxtt{
         background-color:rgb(174, 213, 255) ;

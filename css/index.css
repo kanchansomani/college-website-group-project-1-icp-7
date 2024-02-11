@@ -213,7 +213,7 @@
           display: none;
          
         }
-        .menu_bar ul li:hover .dropdown_menu 
+        .menu_bar ul li:hover.dropdown_menu 
         {
            display: block;
            position: absolute;
@@ -221,12 +221,12 @@
            top:100%;
            font-size: 20px;
         }
-        .menu_bar ul li:hover .dropdown_menu ul
+        .menu_bar ul li:hover.dropdown_menu ul
         { 
            display: block;
            margin: 10px;
         }
-        .menu_bar ul li:hover .dropdown_menu ul li
+        .menu_bar ul li:hover.dropdown_menu ul li
         {
          width: 200px;
          padding: 10px;

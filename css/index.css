@@ -149,10 +149,8 @@
         .search{
          
         
-        margin-right: 15px;
+        
         size: 2px;
-        padding: 7px;
-        font-size: 8px;
         text-align: start;
         color: rgb(0, 0, 0);
         background-color:rgb(216, 236, 244);
@@ -166,10 +164,8 @@
            justify-content: space-between;
            align-items: center;
            position: relative;
-           padding-top:1px ;
-           margin:0;
-          padding: 10px;
-        
+          
+           
         }
         @media screen and (max-width:768px)
         {
@@ -201,7 +197,7 @@
         
         .menu_bar ul li a
         {
-          font-size: 20px;
+          font-size: 15px;
           color:black;
           background-color:rgb(255, 255, 255);
           padding: 10px;

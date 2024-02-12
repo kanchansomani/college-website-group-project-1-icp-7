@@ -56,3 +56,19 @@ text-align: center;
      border-radius: 10px;
      border: solid 3px  rgb(15, 15, 86);
 }
+@media screen and (max-width:768px){
+    .container{
+        width:650px;
+
+    }
+    .cod{
+        width:300px;
+
+    }
+    .cod1{
+        width:300px;
+
+    }
+    .deptimgc1{
+        width: 50px;
+    }

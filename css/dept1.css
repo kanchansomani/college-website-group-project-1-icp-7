@@ -511,7 +511,7 @@
 Header responsiveness code
 
 @media screen and (max-width:768px) {
-    .college_name {
+    .txt {
       width: 230px;
       height: 200px;
       padding: 0;
@@ -522,7 +522,7 @@ Header responsiveness code
     }
   }
   @media screen and (max-width:768px) {
-    .grade {
+    .naac {
       font-size: 15px;
   
       text-align: center;

@@ -149,7 +149,7 @@ h1{
     font-size: 38px;
     position: absolute;
     text-align:right;
-    color:black;
+    color:white;
     padding: 20px;
 }
 @media screen and (max-width:768px)

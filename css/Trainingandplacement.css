@@ -45,8 +45,22 @@ p{
     border: 2px solid black;
     border-radius: 20px;
 }
+@media screen  and (max-width:768px;){
+    .training-image{
+        width: 100px;
+        height: 100px;
+    }
+    
+}
 .skill-drive{
     display: flex;
+}
+@media screen and (max-width:768px;){
+    .skill-drive{
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
 .skill-list{
     font-size: 18px;
@@ -57,6 +71,14 @@ p{
     font-size: 20px;
     margin-left: 20px;
 
+}
+@media screen and (max-width:768px;) {
+    .training-info{
+        font-size: 10px;
+
+            
+    }
+    
 }
 .teacher-img{
     height: 200px;
@@ -220,6 +242,9 @@ p{
         background-color:rgb(216, 236, 244);
         box-shadow: 0 0 2px 2px grey;
        }
+       .acc{
+        color: black;
+       }
     
     .head-main{
         display:flex;
@@ -272,16 +297,17 @@ p{
       
       
       @media screen and (max-width:768px) {
-        .college_name {
+         .college_name {
       
           width: 230px;
           height: 200px;
-          padding: 0;
-          font-size: 25px;
+          padding: 0px;
+          font-size: 9px;
           margin-left: 130px;
           margin-right: 100px;
           margin-bottom: -20px;
-        }
+        } 
+    
       }
       @media screen and (max-width:768px) {
         .grade {
@@ -289,6 +315,15 @@ p{
       
           text-align: center;
         }
+      }
+
+      @media screen and (max-width: 768px) {
+        .cr{
+            font-size: 20px;
+            position: relative;
+            bottom: 50px;
+        }
+        
       }
       @media screen and (max-width:768px) {
         .logo {
@@ -309,4 +344,12 @@ p{
           display: none;
         }
       }
-      
+      @media screen and ( max-width: 768px){
+        .training-heading{
+            font-size: 18px;
+            width: 300px;
+            text-align: center;
+            justify-content: center;
+        }
+       
+      }

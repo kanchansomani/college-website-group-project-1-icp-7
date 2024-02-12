@@ -493,3 +493,13 @@
     top: 125px;
     right: 325px;
 }
+@media  screen and (max-width: 768px;) {
+    .comp{
+        width: 150px;
+        height: auto;
+    }
+    .entc{
+        width: 150px;
+        height: auto;
+    }
+}

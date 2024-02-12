@@ -121,6 +121,7 @@ text-align: center;
     box-shadow: 5px 5px 5px 2px  rgb(169, 230, 248);
     float: center;
     margin: 10px;
+    border: 2px solid wheat;
    
 }
 @media screen and (max-width:768px)
@@ -145,6 +146,7 @@ h1{
 {   h1
     {   font-size: 30px;
         padding-left: 60px;
+        margin-left: 80px;
 
     }
 }

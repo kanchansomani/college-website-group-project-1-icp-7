@@ -1,4 +1,4 @@
-body
+.body
 {
     background-color:rgb(15, 15, 86);
 }
@@ -156,8 +156,10 @@ h1{
 {
     h1
     {
-        font-size: 30px;
-        padding-left: 60px;
+        font-size: 25px;
+        padding-left: 30px;
+        margin-top: -10px;
+        margin-left: 100px;
 
     }
 }

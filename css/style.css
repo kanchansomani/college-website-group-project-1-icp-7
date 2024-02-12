@@ -241,8 +241,159 @@ height="170px" class="logo rights" />
 /* Header Css */
 
 
+<<<<<<< HEAD
 body {
   background-color: rgb(15, 15, 86);
+=======
+    FOOTER CSS
+
+    .footer {
+        margin-top: 10px;
+        padding: 30px 30px 0 30px;
+        color: #ffffff;
+        background-color: rgb(0, 0, 0);
+        font-size: small;
+        font-weight: 600;
+    }
+    
+    .inner-footer {
+        display: flex;
+    }
+    
+    .container0 {
+        display: inline;
+    }
+    
+    .container1 {
+        width: 900px;
+        display: flex;
+        justify-content:space-around ;
+        align-items: center;
+    }
+    
+    .footer-title {
+        font-size: large;
+        margin-bottom: 0;
+    }
+    
+    .footer-logo {
+        width: 100px;
+        margin-left: 100px;
+        
+        
+    }
+    
+    .footer-name {
+        margin: 10px;
+    }
+    
+    span {
+        color: #ffffff;
+    }
+    
+    .contact-logo {
+        height: 20px;
+    }
+    
+    .footer-campuses {
+        text-decoration: none;
+        color: #092635;
+    }
+    
+    .footer-end {
+        display: block;
+        text-align: center;
+        margin-bottom: 5px;
+        padding: 10px;
+    }
+
+
+
+
+
+    HEADER CODE
+
+        <div class="cr" style="background-color: rgb(15,15,86); padding-top:30px; display:flex; justify-content: space-evenly;">
+      <header>
+      <div class="head-main">
+      <div><img src="./../img/spectrum_college_logo-removebg-preview.png"
+        style="height:160px; margin-left:50px"class="logo"/></div>  
+    
+        <div class="college_name">SPRECTRUM COLLEGE OF ENGINEERING AND RESEARCH , PUNE.<br/>
+        <p  style="font-size:25px;padding-bottom:20px"><b>Accredited "A+" grade by NAAC</b></p></div>
+        <div><img src="./../img/university_logo-removebg-preview.png"
+              style="height:160px;background-color: white; border-radius:50%; margin-right:50px"class="logo"/></div>  
+        </div>   
+
+  <div class="navigation_bar" class="navigation_button">
+       <a href="./../index.html" target="_blank"><button class="navigation_button" >Home</button></a>
+       <a href="./Loginpage.html" target="_blank"><button class="navigation_button" >Login</button></a>
+       <a href="./about.html" target="_blank"><button class="navigation_button" >About Us</button></a>
+       <a href="./admission.html" target="_blank"><button class="navigation_button">Admission</button></a>
+       <a href="./examination.html" target="_blank"><button class="navigation_button" >Examination</button></a>
+       <a href="./department-info.html" target="_blank"><button class="navigation_button" >Department</button></a>
+       <a href="./training-and-placement.html" target="_blank"><button class="navigation_button" >Training and Placement</button></a>
+       <a href="./contact.html" target="_blank"><button class="navigation_button" >Contact</button></a>
+       
+        <label for="Search" style="color:black"><b>Search:</b></label>
+        <input type="text" id="Search" class="search" requird placeholder="Type here to search"> 
+    
+    </div>
+        <hr />    <hr />
+      </header>
+  </div>
+
+   HEADER CSS
+
+   .cr{
+    height:auto;
+}
+.college_name{
+    font-size:45px;
+    height: 160px;
+    padding-top: 20px;
+    margin-left:30px;
+    margin-right:30px;
+    margin-bottom:30px;
+    background-color: ;
+    color: rgb(15, 15, 86);
+    font-family: 'PT Serif', serif; 
+    text-align:center;
+    border-radius: 5px;
+    border: 5px solid black;
+    background-color:rgb(216, 236, 244);
+    box-shadow: 0 0 2px 2px grey;
+   }
+
+.head-main{
+    display:flex;
+    justify-content: space-around;
+    font-size:60px;
+
+}
+.grade{
+    text-align:center;
+    color:  rgb(15, 15, 86);
+    font-size: 25px;
+    font-family: 'PT Serif', serif;
+    padding-bottom: 5px;
+    position: absolute;
+    margin-right: 200px;
+
+}
+.navigation_bar{
+    width:73%;
+    margin-left:20px;
+   
+    justify-content:space-between;
+    padding-left: 40px;
+    background-color:rgb(216, 236, 244);
+  padding: 8px 0px;
+}
+.navigation_button{
+    margin-left: 20px;
+
+>>>>>>> 9ce146a810c4d0bdf728c6334ad9ec28d969c6e4
 }
 
 

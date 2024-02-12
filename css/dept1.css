@@ -557,6 +557,7 @@
     top: 125px;
     right: 325px;
 }
+<<<<<<< HEAD
 
 
 @media screen and (max-width:768px){
@@ -573,3 +574,15 @@
     padding-top: 20px;
     padding-right: 50px;
 } 
+=======
+@media  screen and (max-width: 768px;) {
+    .comp{
+        width: 150px;
+        height: auto;
+    }
+    .entc{
+        width: 150px;
+        height: auto;
+    }
+}
+>>>>>>> d14b3de92d155fef5653cb3451ce1f596e4befa5

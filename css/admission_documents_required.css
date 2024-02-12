@@ -1,4 +1,4 @@
-body
+.body
 {
     background-color:rgb(15, 15, 86);
 }
@@ -149,15 +149,17 @@ h1{
     font-size: 38px;
     position: absolute;
     text-align:right;
-    color:black;
+    color:white;
     padding: 20px;
 }
 @media screen and (max-width:768px)
 {
     h1
     {
-        font-size: 30px;
-        padding-left: 60px;
+        font-size: 25px;
+        padding-left: 30px;
+        margin-top: -10px;
+        margin-left: 100px;
 
     }
 }

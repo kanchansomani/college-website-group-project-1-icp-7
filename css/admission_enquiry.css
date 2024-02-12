@@ -45,7 +45,7 @@ body
 {
     .title
     {
-        font-size: 20px;
+        font-size:25px;
         padding: 20px 20px;
     }
 }
@@ -62,7 +62,7 @@ body
 @media screen and (max-width:768px)
 {
     .text
-    {  font-size: 20px;
+    {  font-size: 25px;
         padding: 20px 20px;
     }
 }
@@ -131,6 +131,7 @@ body
     box-shadow: 5px 5px 5px 2px  rgb(169, 230, 248);
     float: center;
     margin: 10px;
+    border: 2px solid wheat;
 }
 
 @media screen and (max-width:768px)
@@ -158,6 +159,8 @@ h1{
     {
         font-size: 30px;
         padding-left: 60px;
+        margin-left: 80px;
+       
 
     }
 }

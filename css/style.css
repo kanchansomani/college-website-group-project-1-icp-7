@@ -194,6 +194,8 @@
 
 
 
+
+
     HEADER CODE
 
         <div class="cr" style="background-color: rgb(15,15,86); padding-top:30px; display:flex; justify-content: space-evenly;">
@@ -301,7 +303,6 @@ Header responsiveness code
 
 @media screen and (max-width:768px) {
   .college_name {
-
     width: 230px;
     height: 200px;
     padding: 0;

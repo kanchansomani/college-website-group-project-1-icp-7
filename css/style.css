@@ -9,127 +9,242 @@
   college name font
    @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
 
-  FOOTER CODE::
+*/
 
-  <!--Footer-->
-<div class="footer">
-    <div class="inner-footer">
-      <div class="container0">
-        <p class="footer-title">
-          <img
-            src="./img/spectrum_college_logo-removebg-preview.png"
-            alt="Spectrum College Of Engineering and Research,Pune"
-            class="footer-logo"
-          />
-        </br></br>
-          <span class="footer-name">Spectrum College Of Engineering and Research,Pune</span>
-        </p>
-        <br />
-        <p>
-            "The word Engineering is not based on the word engine but
-             rather it is derived from two latin words ingenium, meaning "cleverness"<br />
-              and ingeniare, meaning "to contrive, devise."
-        </p>
-      </div>
-      <div class="container1">
-        <div class="footer-content">
-          <p class="footer-title"><b>Our Campuses </b></p>
-          <p class="footer-campuses"><span>Pune</span></p>
-          
-          <p class="footer-campuses" ><span>Mumbai</span></p>
-      
-          <p class="footer-campuses"><span>Nagpur</span></p>
-          
-          <p class="footer-campuses"><span>Delhi</span></p>
-         
-          <p class="footer-campuses"><span>Kalkatta</span></p>
-         
-          <p class="footer-campuses"><span>Chennai</span></p>
-          
-          <p class="footer-campuses"><span>Banglore</span></p>
-          
-        </div>
+/* Header Code */
 
-        <div class="footer-content">
-          <p class="footer-title"><b> Quick Links </b></p><br />
-          <a href="./index.html" class="footer-anchor"
-            ><span>Home</span></a
-          >
-          <br />
-          <a href="./pages/Loginpage.html" class="footer-anchor"
-            ><span>Login</span></a
-          >
-          <br />
-          <a href="./pages/about.html" class="footer-anchor"
-            ><span>About Us</span></a
-          >
-          <br />
-          <a href="./pages/admission.html" class="footer-anchor"
-            ><span>Admission</span></a
-          >
-          <br />
-          <a href="./pages/examination.html" class="footer-anchor"
-            ><span>Examination</span></a
-          >
-          <br />
-          <a href="./pages/department-info.html" class="footer-anchor"
-            ><span>Department</span></a
-          >
-          <br />
-          <a href="./pages/training-and-placement.html" class="footer-anchor"
-            ><span>Training and Placement</span></a
-          >
-          <br />
-          <a href="./pages/contact.html" class="footer-anchor"
-            ><span>Contact</span></a
-          >
-        </div>
-      </div>
-      <div class="container2">
-        <p class="footer-title">Contact Details</p><br />
-        <a
-          href="https://maps.app.goo.gl/9cwJUf8Ruc1zuFEz8"
-          class="footer-anchor"
-          target="_blank"
-        >
-          <img
-            src="./icons/location-pin.png"
-            alt="location"
-            class="contact-logo"
-          />
-          <span
-            >412,Nagar Road,Bakori Phata,Wagholi.
-             <br />
-            Pune - 412307</span
-          >
-        </a>
-        <br />
-        <a href="tel:+91 9850912814" class="footer-anchor">
-          <img src="./icons/phone.png" alt="phone" class="contact-logo" />
-          <span>+91-9850912814</span>
-        </a>
-        <br />
-        <a href="mailto: kanchan0214@gmail.com" class="footer-anchor">
-          <img src="./icons/gmail.png" alt="mail" class="contact-logo" />
-          <span>kanchan0214@gmail.com</span><br /><br />
+<body><div class="container"><header><div class="college_name">SPRECTRUM COLLEGE OF ENGINEERING AND RESEARCH,
+PUNE.<br/><space class="grade"><b>Accredited "A+" grade by NAAC</b></space></div><img src="./img/university_logo-removebg-preview.png"
+height="170px" class="logo left" />&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
-          <div>
-    <img src="./icons/facebook.png" class="social_media"/>
-    <img src="./icons/instagram.png" class="social_media"/>
-    <img src="./icons/linkedin.png" class="social_media"/>
-    <img src="./icons/whatsapp.png" class="social_media"/>
-    
-    
-          </div>
-        </a>
-      </div>
-    </div>
-    <div class="footer-end">
-      <p>© Spectrum College Of Engineering And Research,Pune.</p>
-      <p>All rights Reserverd Terms of Use Privacy Policy</p>
-    </div>
+<img src="./img/spectrum_college_logo-removebg-preview2.png"
+height="170px" class="logo rights" />
+<div class="menu_bar" style="padding: 50px;margin-left: 100px;padding-right: 50px;padding-bottom: 10px;padding-top: 10px;">
+<ul class="nevigation_bar" style="font-size: 10px;">
+<li><a href="./index.html">Home</a></li>
+<li><a href="./pages/Loginpage.html">Login</a></li>
+<li><a href="./pages/about.html">About Us</a></li>
+<li><a href="#">Admission</a><div class="dropdown_menu"><ul>
+<li><a href="./pages/admission_enquiry.html">Admission Enquiry</a></li>
+<li><a href="./pages/admission_course_intake.html">course intake</a></li>
+<li><a href="./pages/admission_eligibility_criteria.html">eligibility criteria</a></li>
+<li><a href="./pages/admission_documents_required.html">documents required</a></li></ul>
+</div>
+</li>
+<li><a href="./pages/examination.html">Examination</a></li>
+<li><a href="./pages/grpproject.html">Department</a></li>
+<li><a href="./pages/training-and-placement.html">Training and Placement</a></li>
+<li><a href="./pages/contact.html">Contact Us</a></li>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<label for="Search"><b style="color: white;font-size: 15px;margin: 0px;margin-left: -12px;">Search:</b></label><input type="text" id="Search" class="search" requird placeholder="Type here to search" style="height: 10px;width: 90px;margin-right: -50px;margin-left: 0px;padding: 5px;"></ul><br><img src="./../icons/hamburgur_menu.png" class="hamburger-menu" /></div></header><hr/><hr/>
+/* Header Css */
 
 
+<<<<<<< HEAD
+body {
+  background-color: rgb(15, 15, 86);
+=======
     FOOTER CSS
 
     .footer {
@@ -278,31 +393,39 @@
 .navigation_button{
     margin-left: 20px;
 
+>>>>>>> 9ce146a810c4d0bdf728c6334ad9ec28d969c6e4
 }
 
 
-
-
-
-  footer responsiveness code
-
-
-  @media screen and (max-width:768px) {
-  .footer {
-    margin-top: 10px;
-    padding: 15px 15px 0 15px;
-    font-size: 10px;
-    font-weight: 200;
-  }
+.container {
+  background-color: rgb(15, 15, 86);
+  padding-top: 30px;
+  display: inline;
+  position: relative;
 }
 
+.college_name {
+  background-color: rgb(216, 236, 244);
+  padding: 10px;
+  font-size: 25px;
+  color: rgb(15, 15, 86);
+  font-family: 'PT Serif', serif;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 30px;
+  height: 100px;
+  padding-top: -20px;
+  padding-bottom: -20px;
+  border: 5px solid black;
+  box-shadow: 0 0 2px 2px;
 
-
-Header responsiveness code
-
+}
 
 @media screen and (max-width:768px) {
   .college_name {
+
     width: 230px;
     height: 200px;
     padding: 0;
@@ -312,6 +435,15 @@ Header responsiveness code
     margin-bottom: -20px;
   }
 }
+
+
+.grade {
+  color: rgb(15, 15, 86);
+  font-size: 25px;
+  font-family: 'PT Serif', serif;
+  padding-bottom: 5px;
+}
+
 @media screen and (max-width:768px) {
   .grade {
     font-size: 15px;
@@ -319,6 +451,18 @@ Header responsiveness code
     text-align: center;
   }
 }
+
+.logo {
+  margin-top: -160px;
+  height: 140px;
+  border-radius: 50%;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: #ffffff;
+  margin-left: 20px;
+
+}
+
 @media screen and (max-width:768px) {
   .logo {
 
@@ -327,11 +471,60 @@ Header responsiveness code
     border: 2px solid black;
     background-color: #ffffff;
     margin: 0 right;
+
+
   }
 }
 
+@media screen and (max-width:768px) {
+  .rights
 
-Navigation baar responsiveness code
+  /*roght logo */
+    {
+    height: 100px;
+    margin-top: -150px;
+    margin-left: 330px;
+    position: absolute;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .left
+
+  /*roght logo */
+    {
+
+    height: 100px;
+    margin-top: -120px;
+    position: absolute;
+
+  }
+}
+
+.social_media {
+  height: 30px;
+  margin: 5px;
+  float: inline-start;
+
+}
+
+.search {
+  size: 2px;
+  text-align: start;
+  color: rgb(0, 0, 0);
+  background-color: rgb(216, 236, 244);
+  position: initial;
+
+}
+
+.menu_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+
+
+}
 
 @media screen and (max-width:768px) {
   .menu_bar {
@@ -340,4 +533,210 @@ Navigation baar responsiveness code
 }
 
 
-*/
+.nevigation_bar {
+
+  padding-left: 60px;
+  justify-content: space-between;
+
+
+}
+
+.menu_bar ul {
+  list-style: none;
+  display: flex;
+  font-size: 30px;
+}
+
+.menu_bar ul li {
+  position: relative;
+}
+
+.menu_bar ul li a {
+  font-size: 15px;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  text-decoration: none;
+  font-weight: 500;
+
+}
+
+.menu_bar ul li a:hover {
+  color: rgb(234, 70, 0);
+
+
+}
+
+.dropdown_menu {
+  display: none;
+  background-color: none;
+
+
+}
+
+.menu_bar ul li:hover .dropdown_menu {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  font-size: 20px;
+}
+
+.menu_bar ul li:hover .dropdown_menu ul {
+  display: block;
+  margin: 10px;
+}
+
+.menu_bar ul li:hover .dropdown_menu ul li {
+  width: 200px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border-bottom-style: solid;
+}
+
+
+.hamburger-menu {
+  color: whitesmoke;
+  height: 40px;
+
+  right: 10px;
+}
+
+@media screen and (max-width:769px) {
+  .hamburger-menu {
+    visibility: visible;
+  }
+}
+
+@media screen and (min-width:769px) {
+  .hamburger-menu {
+    visibility: hidden;
+
+  }
+}
+
+
+
+/* FOOTER CODE */
+
+
+<div class="footer"><div class="inner-footer"><div class="container0"><p class="footer-title"><img src="./img/spectrum_college_logo-removebg-preview.png"
+alt="Spectrum College Of Engineering and Research,Pune"
+class="footer-logo"
+/></br></br><span class="footer-name">Spectrum College Of Engineering and Research,
+Pune</span></p><br /><p>"The word Engineering is not based on the word engine but
+ rather it is derived from two latin words ingenium,
+meaning "cleverness" <br />and ingeniare,
+meaning "to contrive, devise."
+</p></div><div class="container1"><div class="footer-content"><p class="footer-title"><b>Our Campuses </b></p><p class="footer-campuses"><span>Pune</span></p><p class="footer-campuses"><span>Mumbai</span></p><p class="footer-campuses"><span>Nagpur</span></p><p class="footer-campuses"><span>Delhi</span></p><p class="footer-campuses"><span>Kalkatta</span></p><p class="footer-campuses"><span>Chennai</span></p><p class="footer-campuses"><span>Banglore</span></p></div><div class="footer-content"><p class="footer-title"><b>Quick Links </b></p><br /><a href="./index.html" class="footer-anchor"
+><span>Home</span></a><br /><a href="./pages/Loginpage.html" class="footer-anchor"
+><span>Login</span></a><br /><a href="./pages/about.html" class="footer-anchor"
+><span>About Us</span></a><br /><a href="./pages/admission.html" class="footer-anchor"
+><span>Admission</span></a><br /><a href="./pages/examination.html" class="footer-anchor"
+><span>Examination</span></a><br /><a href="./pages/department-info.html" class="footer-anchor"
+><span>Department</span></a><br /><a href="./pages/training-and-placement.html" class="footer-anchor"
+><span>Training and Placement</span></a><br /><a href="./pages/contact.html" class="footer-anchor"
+><span>Contact</span></a></div></div><div class="container2"><p class="footer-title">Contact Details</p><br /><a href="https://maps.app.goo.gl/9cwJUf8Ruc1zuFEz8"
+class="footer-anchor"
+target="_blank"
+><img src="./icons/location-pin.png"
+alt="location"
+class="contact-logo"
+/><span>412,
+Nagar Road,
+Bakori Phata,
+Wagholi. <br />Pune - 412307</span></a><br /><a href="tel:+91 9850912814" class="footer-anchor"><img src="./icons/phone.png" alt="phone" class="contact-logo" /><span>+91-9850912814</span></a><br /><a href="mailto: kanchan0214@gmail.com" class="footer-anchor"><img src="./icons/gmail.png" alt="mail" class="contact-logo" /><span>kanchan0214@gmail.com</span><br /><br /><div><img src="./icons/facebook.png" class="social_media" /><img src="./icons/instagram.png" class="social_media" /><img src="./icons/linkedin.png" class="social_media" /><img src="./icons/whatsapp.png" class="social_media" /></div></a></div></div><div class="footer-end"><p>© Spectrum College Of Engineering And Research, Pune.</p><p>All rights Reserverd Terms of Use Privacy Policy</p></div></div></div>
+/* FOOTER CSS */
+
+.footer {
+  margin-top: 20px;
+  padding: 30px 30px 0 30px;
+  color: #ffffff;
+  background-color: rgb(0, 0, 0);
+  font-size: small;
+  font-weight: 600;
+  box-sizing: border-box;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: -10px;
+
+
+}
+
+@media screen and (max-width:768px) {
+  .footer {
+    margin-top: 10px;
+    padding: 15px 15px 0 15px;
+    font-size: 10px;
+    font-weight: 200;
+    border: 50px solid black;
+  }
+}
+
+.inner-footer {
+  display: flex;
+}
+
+.container0 {
+  display: inline;
+}
+
+@media screen and (max-width:768px) {
+  .container0 {
+    display: inline;
+  }
+}
+
+.container1 {
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (max-width:768px) {
+  .container1 {
+    display: inline;
+  }
+}
+
+.footer-title {
+  font-size: large;
+  margin-bottom: 0;
+}
+
+.footer-logo {
+  width: 100px;
+  margin-left: 100px;
+}
+
+@media screen and (max-width:768px) {
+  .footer-logo {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+.footer-name {
+  margin: 10px;
+}
+
+span {
+  color: #ffffff;
+}
+
+.contact-logo {
+  height: 20px;
+}
+
+.footer-campuses {
+  text-decoration: none;
+  color: #000000;
+}
+
+.footer-end {
+  display: block;
+  text-align: center;
+  margin-bottom: 5px;
+  padding: 10px;
+}

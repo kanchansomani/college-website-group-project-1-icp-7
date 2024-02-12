@@ -1,20 +1,20 @@
-.body
+body
 {
   /* display: inline-flex; */
-  background-color:white;
+  background-color:rgb(15, 15, 86);
 }
 
 .title
 {
         font-size: 35px;
         text-align: center;
-        box-shadow: 5px 5px 5px 2px  rgb(47, 50, 50);
+       
         padding: 20px 20px;
         font-weight: bold;
-        color:white;
+        color:black;
         border-bottom: solid black 2px;
         font-family: Bahnschrift Condensed;
-        background-color:rgb(15, 15, 86);
+        background-color:  rgb(216, 236, 244);
 }
 @media screen and (max-width:768px)
 {
@@ -35,7 +35,7 @@
     text-align: left;
     color:black;
     background-color: aliceblue;
-    box-shadow: 5px 5px 5px 2px  rgb(47, 50, 50);
+    box-shadow: 5px 5px 5px 2px  rgb(169, 230, 248);
 }
 @media screen and (max-width:768px)
 {
@@ -52,7 +52,7 @@
 {
  
     border: 4px solid black;
-    box-shadow: 5px 5px 5px 2px  rgb(93, 101, 102);
+    box-shadow: 5px 5px 5px 2px  rgb(169, 230, 248);
 }
 
 
@@ -184,7 +184,7 @@ font-size: 20px;
     height: 300px;
     width: 1300px;
     border-radius: 5%;
-    box-shadow: 5px 5px 5px 2px  rgb(47, 50, 50);
+    box-shadow: 5px 5px 5px 2px  rgb(169, 230, 248);
     float: center;
     margin: 10px;
     border: 2px solid wheat;
@@ -216,6 +216,7 @@ h1{
     {
         font-size: 30px;
         padding-left: 60px;
+        margin-left: 40px;
 
     }
 }

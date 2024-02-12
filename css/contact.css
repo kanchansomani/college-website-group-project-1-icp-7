@@ -1,149 +1,184 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
 .container{
     display: flex;
     justify-content: center;
 }
+
+h1{
+    text-align: center;
+    background-color: rgb(15, 15, 86);
+    color: rgb(249, 249, 252);
+    height: 50px;
+    margin-top: 0;
+    padding-top: 0%;
+    font-size: 40px;
+    border: #110633 double 5px;
+}
 .img{
     margin-left: 0%;
-    width: 560px;
-    box-shadow: 0 0 8px 8px rgb(180, 180, 239);
+    width: 550px;
+    margin-right: 3px;
+    height: 400px;
+    box-shadow: 0px 0px 7px rgb(15, 15, 81);
+    margin-top: 3px;
 }
 .form{
-    border: 5px rgb(189, 189, 238) solid;
-    box-shadow: 0 0 8px 8px rgb(142, 142, 213);
+    box-shadow: 0 0 6px 6px rgba(7, 5, 57, 0.877);
+    border-radius: 5px;
     justify-content: center;
-    height: 400px;
-    width: 730px;
-    background-color: rgb(208, 208, 246);
-    padding-left: 10px;
+    height: 407px;
+    width: 745px;
+    background-color: rgba(15, 15, 80, 0.852);
+    padding-left: 25px;
 }
 .fn,.email,.query,.date,.opinion{
     width: 550px;
     height: 33px;
-    margin-left:9%;
+    margin-left:11%;
     text-align: center;
-    border: 3px solid rgb(226, 220, 238);
-    box-shadow: 0 0 3px 3px rgb(156, 152, 212);
+    border: 3px solid rgb(178, 168, 212);
+    box-shadow: 0 0 3px 3px rgb(167, 164, 201);
     font-size: larger;
     font-weight: 200;
     font-family: 'Times New Roman', Times, serif;
-    color: #160f53; 
+    color: #06031e; 
 }
 h2{
+    margin-top: 2%;
     text-align: center;
-    color: #200f53; 
+    color: #eeebf7; 
 }
 .submit{
     text-align: center;
     margin-left: 38%;
     width: 150px;
     height: 30px;
-    color:rgb(15, 15, 86);
+    color:rgb(3, 3, 25);
     background-color: rgb(255, 255, 255) ;
-    border: #a39be2 3px solid;
-    box-shadow: 0 0 2px 2px rgb(152, 158, 235);
+    border: #aeaad2 3px solid;
+    box-shadow: 0 0 2px 2px rgb(100, 104, 159);
     border-radius: 6%;
 }
 .submit:hover{
-    background-color: #9998c6;
+    background-color: rgb(15, 15, 86);
+    color: rgb(226, 226, 241);
 }
 .three-box{
     display: flex;
     justify-content: center; 
-    
 }
 .three{
-    background-color: rgb(96, 134, 215);
-    margin: 17px;
+    background-color: rgba(15, 15, 86);
+    margin: 13px;
+    border-radius: 7px;
     height: 320px;
-    width: 290px;
-    border: #110633 double 5px;
+    width: 310px;
+    box-shadow: 0 0 17px rgb(1, 0, 5);
     text-align: center;
+}
+.three:hover{
+    background: linear-gradient(45deg,rgba(14, 17, 69, 0.796),rgba(36, 36, 113, 0.796));
 }
 .iconss{
     width: 100px;
     height: 80px;
-  
 }
-
-
-.logo {
-    height: 150px;
-    width: 150px;
+.ic{
+    height: 50px;
+    width: 50px;
+}
+.ic:hover{
+    border: rgb(7, 7, 41) 2px double;
     border-radius: 50%;
-    background-color: white;
+    box-shadow:0 0 6px #020116;
 }
-.clgname {
-    font-size: 30px;
-    color: white ;
-
-}
-.loginhead {
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(15, 15, 86);
-    padding-top: 10px;
-    padding-left: 30px;
-    padding-bottom: 10px;
-}
-p{
-    color: white;
-    font-size: 20px;
-}
-.placement-img{
-    width: 500px;
-    border-radius: 20px;
-    border: 2px solid white;
-}
-.contact-heading{
-    margin-left: 10px;
-    padding-left: 200px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    width: 450px;
-    color:rgb(15, 15, 86) ;
-    border: 2px solid rgb(15, 15, 86);
-    border-radius: 10px;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    margin-left: 42%;
-    height: 40px;
-    padding: 0;
-    display: flex;
-    background-color: rgb(15, 15, 86);
+h5{
+    font-size: 35px;
+    color: rgb(15, 15, 86);
+    text-align: center;
   }
-  
-  li {
-    margin-right: 20px;
-    font-size: larger;
-  }
-  a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-  }
-  
-  a:hover {
-    color: #ffcc00; 
-  }
-  .loc{
-    margin-left: 7%;
-    border: rgb(15, 15, 86) 2px double;
-  }
-  h5{
+  .txt{
+    margin: 3%;
     font-size: x-large;
-    color: rgb(15, 15, 86);
-    text-align: center;
+    color: #ffffff;
   }
-  .PHONE{
-    color: rgb(15, 15, 86);
+.PHONE{
+    color: rgb(243, 243, 249);
     text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .PHONE:hover{
+    color: rgb(4, 4, 49);
+    box-shadow: 0 0 3px rgb(10, 10, 62);
   }
   .add{
-    color: rgb(15, 15, 86);
+    color: rgb(249, 249, 251);
     text-align: center;
+
   }
+  .offices{
+    margin-left: 7%;
+    border:3px rgba(15, 15, 86, 0.739) solid;
+    box-shadow:0 0 6px rgba(15, 15, 86, 0.739);
+    width: 1335px;
+  }
+.loc{
+    margin-left: 7%;
+    box-shadow:0 0 6px rgba(15, 15, 86, 0.739);
+  }
+/* header*/
+
+.cr{
+    height:auto;
+}
+.college_name{
+    font-size:45px;
+    height: 160px;
+    padding-top: 20px;
+    margin-left:30px;
+    margin-right:30px;
+    margin-bottom:30px;
+    color: rgb(15, 15, 86);
+    font-family: 'PT Serif', serif; 
+    text-align:center;
+    border-radius: 5px;
+    border: 5px solid black;
+    background-color:rgb(216, 236, 244);
+    box-shadow: 0 0 2px 2px grey;
+   }
+
+.head-main{
+    display:flex;
+    justify-content: space-around;
+    font-size:60px;
+
+}
+.grade{
+    text-align:center;
+    color:  rgb(15, 15, 86);
+    font-size: 25px;
+    font-family: 'PT Serif', serif;
+    padding-bottom: 5px;
+    position: absolute;
+    margin-right: 200px;
+
+}
+.navigation_bar{
+    width:73%;
+    margin-left:20px;
+   
+    justify-content:space-between;
+    padding-left: 40px;
+    background-color:rgb(216, 236, 244);
+  padding: 8px 0px;
+}
+.navigation_button{
+    margin-left: 20px;
+}
   /* FOOTER CSS */
 
   .footer {
@@ -209,3 +244,47 @@ span {
 .social_media{
     width: 30px;
 }
+
+@media screen and (max-width:768px) {
+    .footer {
+      margin-top: 10px;
+      padding: 15px 15px 0 15px;
+      font-size: 10px;
+      font-weight: 200;
+    }
+  }
+
+  @media screen and (max-width:768px) {
+    .college_name {
+      width: 230px;
+      height: 200px;
+      padding: 0;
+      font-size: 25px;
+      margin-left: 130px;
+      margin-right: 100px;
+      margin-bottom: -20px;
+    }
+  }
+  @media screen and (max-width:768px) {
+    .grade {
+      font-size: 15px;
+  
+      text-align: center;
+    }
+  }
+  @media screen and (max-width:768px) {
+    .logo {
+  
+      height: 80px;
+      border-radius: 50%;
+      border: 2px solid black;
+      background-color: #ffffff;
+      margin: 0 right;
+    }
+  }
+
+  @media screen and (max-width:768px) {
+    .menu_bar {
+      display: none;
+    }
+  }    

@@ -1,167 +1,440 @@
+
 *{
-    padding: 0%;
-    margin: 0%;
+  padding: 0%;
+  margin: 0%;
 }
 .cont{
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 h1{
-    text-align: center;
-    background-color: rgb(15, 15, 86);
-    color: rgb(249, 249, 252);
-    height: 50px;
-    margin-top: 0;
-    padding-top: 0%;
-    font-size: 40px;
-    border: #110633 double 5px;
+  text-align: center;
+  background-color: rgb(216, 236, 244);
+  color: #06031e; 
+  height: 50px;
+  margin-top: 0;
+  padding-top: 0%;
+  font-size: 40px;
+  border: #110633 double 5px;
 }
-.img{
-    margin-left: 0%;
-    width: 550px;
-    margin-right: 3px;
-    height: 400px;
-    box-shadow: 0px 0px 7px rgb(15, 15, 81);
-    margin-top: 3px;
+.image{
+  margin-left: 0;
+  width: 550px;
+  margin-right: 3px;
+  height: 400px;
+  box-shadow: 0px 0px 7px rgb(15, 15, 81);
+  margin-top:-3px;
 }
 .form{
-    box-shadow: 0 0 6px 6px rgba(7, 5, 57, 0.877);
-    border-radius: 5px;
-    justify-content: center;
-    height: 407px;
-    width: 745px;
-    background-color: rgba(15, 15, 86);
-    padding-left: 25px;
+margin-top:34px;
+  box-shadow: 0 0 6px 6px rgba(7, 5, 57, 0.877);
+  border-radius: 5px;
+  justify-content: center;
+  height: 407px;
+  width: 700px;
+  background-color: rgba(15, 15, 86);
+  padding-left: 25px;
+}
+.form
+{
+margin-left: 20px;
 }
 .fn,.email,.query,.date,.opinion{
-    width: 550px;
-    height: 33px;
-    margin-left:11%;
-    text-align: center;
-    border: 3px solid rgb(191, 194, 235);
-    
-    font-size: larger;
-    font-weight: 200;
-    font-family: 'Times New Roman', Times, serif;
-    color: #06031e; 
+  width: 550px;
+  height: 33px;
+  margin-left:11%;
+  text-align: center;
+  border: 3px solid rgb(191, 194, 235);
+  
+  font-size: larger;
+  font-weight: 200;
+  font-family: 'Times New Roman', Times, serif;
+  color: #06031e; 
 }
 h2{
-    margin-top: 2%;
-    text-align: center;
-    color: #eeebf7; 
+  margin-top: 2%;
+  text-align: center;
+  color: #eeebf7; 
 }
 .submit{
-    text-align: center;
-    margin-left: 38%;
-    width: 150px;
-    height: 30px;
-    color:rgb(3, 3, 25);
-    background-color: rgb(255, 255, 255) ;
-    border: #aeaad2 3px solid;
-    box-shadow: 0 0 2px 2px rgb(100, 104, 159);
-    border-radius: 6%;
+  text-align: center;
+  margin-left: 38%;
+  width: 200px;
+  height: 30px;
+  color:rgb(3, 3, 25);
+  background-color: rgb(255, 255, 255) ;
+  border: #aeaad2 3px solid;
+  box-shadow: 0 0 2px 2px rgb(100, 104, 159);
+  border-radius: 40px;
 }
 .submit:hover{
-    background-color: rgb(15, 15, 86);
-    color: rgb(226, 226, 241);
+  background-color:green;
+  color: rgb(226, 226, 241);
 }
 .three-box{
-    display: flex;
-    justify-content: center; 
+  display: flex;
+  justify-content: center; 
 }
 .three{
-    background-color: rgba(15, 15, 86);
-    margin: 13px;
-    border-radius: 7px;
-    height: 320px;
-    width: 310px;
-    box-shadow: 0 0 17px rgb(1, 0, 5);
-    text-align: center;
+  background-color: rgba(15, 15, 86);
+  margin: 13px;
+  border-radius: 7px;
+  height: 320px;
+  width: 310px;
+  box-shadow: 0 0 17px rgb(1, 0, 5);
+  text-align: center;
 }
 .three:hover{
-    background: linear-gradient(45deg,rgba(14, 17, 69, 0.796),rgba(36, 36, 113, 0.796));
+  background: linear-gradient(45deg,rgba(14, 17, 69, 0.796),rgba(36, 36, 113, 0.796));
 }
 .iconss{
-    width: 100px;
-    height: 80px;
+  width: 100px;
+  height: 80px;
 }
 .ic{
-    height: 50px;
-    width: 50px;
+  height: 50px;
+  width: 50px;
 }
 .ic:hover{
-    border: rgb(7, 7, 41) 2px double;
-    border-radius: 50%;
-    box-shadow:0 0 6px #020116;
+  border: rgb(7, 7, 41) 2px double;
+  border-radius: 50%;
+  box-shadow:0 0 6px #020116;
 }
 h5{
-    font-size: 35px;
-    color: rgb(15, 15, 86);
-    text-align: center;
-  }
-  .txt{
-    margin: 3%;
-    font-size: x-large;
-    color: #ffffff;
-  }
+  font-size: 35px;
+  color: rgb(15, 15, 86);
+  text-align: center;
+}
+.txt{
+  margin: 3%;
+  font-size: x-large;
+  color: #ffffff;
+}
 .PHONE{
-    color: rgb(243, 243, 249);
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-  }
-  .PHONE:hover{
-    color: rgb(4, 4, 49);
-    box-shadow: 0 0 3px rgb(10, 10, 62);
-  }
-  .add{
-    color: rgb(249, 249, 251);
-    text-align: center;
+  color: rgb(243, 243, 249);
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+.PHONE:hover{
+  color: rgb(4, 4, 49);
+  box-shadow: 0 0 3px rgb(10, 10, 62);
+}
+.add{
+  color: rgb(249, 249, 251);
+  text-align: center;
 
-  }
-  .offices{
-    margin-left: 7%;
-    border:3px rgba(15, 15, 86, 0.739) solid;
-    box-shadow:0 0 6px rgba(15, 15, 86, 0.739);
-    width: 1335px;
-  }
+}
+.offices{
+  /* margin-left: 7%; */
+  border:3px rgba(15, 15, 86, 0.739) solid;
+  box-shadow:0 0 6px rgba(15, 15, 86, 0.739);
+  width: 1335px;
+}
 .loc{
-    margin-left: 7%;
-    box-shadow:0 0 6px rgba(15, 15, 86, 0.739);
-  }
+  /* margin-left: 7%; */
+  box-shadow:0 0 6px rgba(15, 15, 86, 0.739);
+}
 /* header*/
 
-
+/* 
 .container {
-  background-color: rgb(15, 15, 86);
-  padding-top: 30px;
-  display: inline;
-  position: relative;
+background-color: rgb(15, 15, 86);
+padding-top: 30px;
+display: inline;
+position: relative;
 }
 
 .college_name {
-  background-color: rgb(216, 236, 244);
-  padding: 10px;
-  font-size: 25px;
-  color: rgb(15, 15, 86);
-  font-family: 'PT Serif', serif;
-  text-align: center;
-  border-radius: 5px;
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-top: 30px;
-  height: 100px;
-  padding-top: -20px;
-  padding-bottom: -20px;
-  border: 5px solid black;
-  box-shadow: 0 0 2px 2px;
+background-color: rgb(216, 236, 244);
+padding: 10px;
+font-size: 25px;
+color: rgb(15, 15, 86);
+font-family: 'PT Serif', serif;
+text-align: center;
+border-radius: 5px;
+margin-left: 200px;
+margin-right: 200px;
+margin-top: 30px;
+height: 100px;
+padding-top: -20px;
+padding-bottom: -20px;
+border: 5px solid black;
+box-shadow: 0 0 2px 2px;
 
 }
 
 @media screen and (max-width:768px) {
-  .college_name {
+.college_name {
 
+  width: 230px;
+  height: 200px;
+  padding: 0;
+  font-size: 25px;
+  margin-left: 130px;
+  margin-right: 100px;
+  margin-bottom: -20px;
+}
+}
+
+
+.grade {
+color: rgb(15, 15, 86);
+font-size: 25px;
+font-family: 'PT Serif', serif;
+padding-bottom: 5px;
+}
+
+@media screen and (max-width:768px) {
+.grade {
+  font-size: 15px;
+
+  text-align: center;
+}
+}
+
+.logo {
+margin-top: -160px;
+height: 140px;
+border-radius: 50%;
+border: 2px solid black;
+border-radius: 50%;
+background-color: #ffffff;
+margin-left: 20px;
+
+}
+
+@media screen and (max-width:768px) {
+.logo {
+
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid black;
+  background-color: #ffffff;
+  margin: 0 right;
+
+
+}
+} */
+/* 
+@media screen and (max-width:768px) {
+.rights
+
+/*roght logo */
+  /* {
+  height: 100px;
+  margin-top: -150px;
+  margin-left: 330px;
+  position: absolute;
+}
+} */ 
+/* 
+@media screen and (max-width:768px) {
+.left
+
+/*roght logo */
+  /* {
+
+  height: 100px;
+  margin-top: -120px;
+  position: absolute;
+
+}
+} */ 
+/* 
+.social_media {
+height: 30px;
+margin: 5px;
+float: inline-start;
+
+}
+
+.search {
+size: 2px;
+text-align: start;
+color: rgb(0, 0, 0);
+background-color: rgb(216, 236, 244);
+position: initial;
+
+}
+
+.menu_bar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: relative;
+
+
+}
+
+@media screen and (max-width:768px) {
+.menu_bar {
+  display: none;
+}
+}
+
+
+.nevigation_bar {
+
+padding-left: 60px;
+justify-content: space-between;
+
+
+}
+
+.menu_bar ul {
+list-style: none;
+display: flex;
+font-size: 30px;
+}
+
+.menu_bar ul li {
+position: relative;
+}
+
+.menu_bar ul li a {
+font-size: 15px;
+color: black;
+background-color: rgb(255, 255, 255);
+padding: 10px;
+text-decoration: none;
+font-weight: 500;
+
+}
+
+.menu_bar ul li a:hover {
+color: rgb(234, 70, 0);
+
+
+}
+
+.dropdown_menu {
+display: none;
+background-color: none;
+
+
+}
+
+.menu_bar ul li:hover .dropdown_menu {
+display: block;
+position: absolute;
+left: 0;
+top: 100%;
+font-size: 20px;
+}
+
+.menu_bar ul li:hover .dropdown_menu ul {
+display: block;
+margin: 10px;
+}
+
+.menu_bar ul li:hover .dropdown_menu ul li {
+width: 200px;
+padding: 10px;
+background-color: rgb(255, 255, 255);
+border-bottom-style: solid;
+}
+
+
+.hamburger-menu {
+color: whitesmoke;
+height: 40px;
+
+right: 10px;
+}
+
+@media screen and (max-width:769px) {
+.hamburger-menu {
+  visibility: visible;
+}
+}
+
+@media screen and (min-width:769px) {
+.hamburger-menu {
+  visibility: hidden;
+
+}
+}
+*/
+
+/* FOOTER CSS */
+/* 
+.footer {
+  margin-top: 10px;
+  padding: 30px 30px 0 30px;
+  color: #ffffff;
+  background-color: rgb(0, 0, 0);
+  font-size: small;
+  font-weight: 600;
+}
+
+.inner-footer {
+  display: flex;
+}
+
+.container0 {
+  display: inline;
+}
+
+.container1 {
+  width: 900px;
+  display: flex;
+  justify-content:space-around ;
+  align-items: center;
+}
+
+.footer-title {
+  font-size: large;
+  margin-bottom: 0;
+}
+
+.footer-logo {
+  width: 100px;
+  margin-left: 100px;
+  background-color: white;
+  border-radius: 50%;
+  
+}
+
+.footer-name {
+  margin: 10px;
+}
+
+span {
+  color: #ffffff;
+}
+
+.contact-logo {
+  height: 20px;
+}
+
+.footer-campuses {
+  text-decoration: none;
+  color: #092635;
+}
+
+.footer-end {
+  display: block;
+  text-align: center;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+.social_media{
+  width: 30px;
+}
+
+@media screen and (max-width:768px) {
+  .footer {
+    margin-top: 10px;
+    padding: 15px 15px 0 15px;
+    font-size: 10px;
+    font-weight: 200;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .college_name {
     width: 230px;
     height: 200px;
     padding: 0;
@@ -171,15 +444,6 @@ h5{
     margin-bottom: -20px;
   }
 }
-
-
-.grade {
-  color: rgb(15, 15, 86);
-  font-size: 25px;
-  font-family: 'PT Serif', serif;
-  padding-bottom: 5px;
-}
-
 @media screen and (max-width:768px) {
   .grade {
     font-size: 15px;
@@ -187,18 +451,6 @@ h5{
     text-align: center;
   }
 }
-
-.logo {
-  margin-top: -160px;
-  height: 140px;
-  border-radius: 50%;
-  border: 2px solid black;
-  border-radius: 50%;
-  background-color: #ffffff;
-  margin-left: 20px;
-
-}
-
 @media screen and (max-width:768px) {
   .logo {
 
@@ -207,262 +459,16 @@ h5{
     border: 2px solid black;
     background-color: #ffffff;
     margin: 0 right;
-
-
   }
-}
-
-@media screen and (max-width:768px) {
-  .rights
-
-  /*roght logo */
-    {
-    height: 100px;
-    margin-top: -150px;
-    margin-left: 330px;
-    position: absolute;
-  }
-}
-
-@media screen and (max-width:768px) {
-  .left
-
-  /*roght logo */
-    {
-
-    height: 100px;
-    margin-top: -120px;
-    position: absolute;
-
-  }
-}
-
-.social_media {
-  height: 30px;
-  margin: 5px;
-  float: inline-start;
-
-}
-
-.search {
-  size: 2px;
-  text-align: start;
-  color: rgb(0, 0, 0);
-  background-color: rgb(216, 236, 244);
-  position: initial;
-
-}
-
-.menu_bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-
-
 }
 
 @media screen and (max-width:768px) {
   .menu_bar {
     display: none;
   }
-}
-
-
-.nevigation_bar {
-
-  padding-left: 60px;
-  justify-content: space-between;
-
-
-}
-
-.menu_bar ul {
-  list-style: none;
-  display: flex;
-  font-size: 30px;
-}
-
-.menu_bar ul li {
-  position: relative;
-}
-
-.menu_bar ul li a {
-  font-size: 15px;
-  color: black;
-  background-color: rgb(255, 255, 255);
-  padding: 10px;
-  text-decoration: none;
-  font-weight: 500;
-
-}
-
-.menu_bar ul li a:hover {
-  color: rgb(234, 70, 0);
-
-
-}
-
-.dropdown_menu {
-  display: none;
-  background-color: none;
-
-
-}
-
-.menu_bar ul li:hover .dropdown_menu {
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 100%;
-  font-size: 20px;
-}
-
-.menu_bar ul li:hover .dropdown_menu ul {
-  display: block;
-  margin: 10px;
-}
-
-.menu_bar ul li:hover .dropdown_menu ul li {
-  width: 200px;
-  padding: 10px;
-  background-color: rgb(255, 255, 255);
-  border-bottom-style: solid;
-}
-
-
-.hamburger-menu {
-  color: whitesmoke;
-  height: 40px;
-
-  right: 10px;
-}
-
-@media screen and (max-width:769px) {
-  .hamburger-menu {
-    visibility: visible;
-  }
-}
-
-@media screen and (min-width:769px) {
-  .hamburger-menu {
-    visibility: hidden;
-
-  }
-}
-
-
-  /* FOOTER CSS */
-
-  .footer {
-    margin-top: 10px;
-    padding: 30px 30px 0 30px;
-    color: #ffffff;
-    background-color: rgb(0, 0, 0);
-    font-size: small;
-    font-weight: 600;
-}
-
-.inner-footer {
-    display: flex;
-}
-
-.container0 {
-    display: inline;
-}
-
-.container1 {
-    width: 900px;
-    display: flex;
-    justify-content:space-around ;
-    align-items: center;
-}
-
-.footer-title {
-    font-size: large;
-    margin-bottom: 0;
-}
-
-.footer-logo {
-    width: 100px;
-    margin-left: 100px;
-    background-color: white;
-    border-radius: 50%;
-    
-}
-
-.footer-name {
-    margin: 10px;
-}
-
-span {
-    color: #ffffff;
-}
-
-.contact-logo {
-    height: 20px;
-}
-
-.footer-campuses {
-    text-decoration: none;
-    color: #092635;
-}
-
-.footer-end {
-    display: block;
-    text-align: center;
-    margin-bottom: 5px;
-    padding: 10px;
-}
-.social_media{
-    width: 30px;
-}
-
-@media screen and (max-width:768px) {
-    .footer {
-      margin-top: 10px;
-      padding: 15px 15px 0 15px;
-      font-size: 10px;
-      font-weight: 200;
-    }
-  }
-
-  @media screen and (max-width:768px) {
-    .college_name {
-      width: 230px;
-      height: 200px;
-      padding: 0;
-      font-size: 25px;
-      margin-left: 130px;
-      margin-right: 100px;
-      margin-bottom: -20px;
-    }
-  }
-  @media screen and (max-width:768px) {
-    .grade {
-      font-size: 15px;
-  
-      text-align: center;
-    }
-  }
-  @media screen and (max-width:768px) {
-    .logo {
-  
-      height: 80px;
-      border-radius: 50%;
-      border: 2px solid black;
-      background-color: #ffffff;
-      margin: 0 right;
-    }
-  }
-
-  @media screen and (max-width:768px) {
-    .menu_bar {
-      display: none;
-    }
-  }    
-  header{
-    background-color: rgb(15,15,86);
-    margin-top: 0%;
-    padding-top: 0%;
-  }
+}    
+header{
+  background-color: rgb(15,15,86);
+  margin-top: 0%;
+  padding-top: 0%;
+} */

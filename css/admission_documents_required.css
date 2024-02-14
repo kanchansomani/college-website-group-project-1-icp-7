@@ -4,9 +4,9 @@
 }
 .UG
 {
-    border: 2px solid black;
+    border: 3px solid black;
     height:640px;
-    margin: 50px;
+    margin: 20px;
     text-align: center;
     color:black;
     font-size: 20px;
@@ -31,13 +31,13 @@
 
 .title
 {
-    font-size: 35px;
+     font-size: 35px;
     border-bottom: solid black 2px;
     text-align: center;
     background-color:  rgb(216, 236, 244);
     padding: 20px 20px;
     font-weight: bold;
-    color: black;
+    color:black;
     font-family: Bahnschrift Condensed;
 }
 @media screen and (max-width:768px)
@@ -61,7 +61,7 @@
 {
     border: 2px solid black;
     height: 590px;
-    margin: 50px;
+    margin: 20px;
     text-align: center;
     color:black;
     font-size: 20px;
@@ -90,7 +90,7 @@
 {
     border: 2px solid black;
     height: 610px;
-    margin: 50px;
+    margin: 20px;
     text-align: center;
     color:black;
     font-size: 20px;
@@ -116,6 +116,7 @@
 
 .note
 {
+    
     text-align: left;
 }
 
@@ -129,7 +130,8 @@
     border-radius: 5%;
     box-shadow: 5px 5px 5px 2px  rgb(169, 230, 248);
     float: center;
-    margin: 10px;
+    margin: 30px 10px 30px 10px;
+    border: 2px solid wheat;
 }
 @media screen and (max-width:768px)
 {
@@ -146,10 +148,10 @@
 
 
 h1{
-    font-size: 38px;
+    font-size: 50px;
     position: absolute;
     text-align:right;
-    color:white;
+    color: white;
     padding: 20px;
 }
 @media screen and (max-width:768px)

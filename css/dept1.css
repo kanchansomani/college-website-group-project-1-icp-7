@@ -59,6 +59,12 @@
 
 }
 
+.d 
+{
+    margin-top: 20px;
+    margin-left: 350px;
+}
+
 /*.txt{
    font-family: "Cinzel", serif
    font-family: 'PT Serif', serif; 
@@ -585,4 +591,3 @@
         height: auto;
     }
 }
->>>>>>> d14b3de92d155fef5653cb3451ce1f596e4befa5

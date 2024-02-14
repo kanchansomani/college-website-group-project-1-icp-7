@@ -1,4 +1,4 @@
-.logo {
+/* .logo {
     height: 150px;
     width: 150px;
     border-radius: 50%;
@@ -8,6 +8,10 @@
     font-size: 28px;
     color: white ;
 
+} */
+.body
+{
+    background-color:  rgb(216, 236, 244);
 }
 .loginhead {
     display: flex;
@@ -137,6 +141,7 @@ p{
     width: 1200px;
     border:  2px solid black;
     box-shadow: 10px 20px 20px 2px rgb(20, 19, 17);
+    background-color: aliceblue;
 }
 .th
 {
@@ -157,7 +162,7 @@ p{
 }
 
 /* FOOTER CSS */
-
+/* 
     .footer {
         margin-top: 10px;
         padding: 30px 30px 0 30px;
@@ -220,10 +225,10 @@ p{
     }
     .social_media{
         width: 30px;
-    }
+    } */
 
 
-    .cr{
+    /* .cr{
         height:auto;
     }
     .college_name{
@@ -293,11 +298,11 @@ p{
       
       
       
-      Header responsiveness code
+      Header responsiveness code */
       
-      
-      @media screen and (max-width:768px) {
-         .college_name {
+/*       
+      @media screen and (max-width:768px) { */
+         /* .college_name {
       
           width: 230px;
           height: 200px;
@@ -337,9 +342,9 @@ p{
       }
       
       
-      Navigation baar responsiveness code
+      /* Navigation baar responsiveness code */
       
-      @media screen and (max-width:768px) {
+      /* @media screen and (max-width:768px) {
         .menu_bar {
           display: none;
         }
@@ -352,4 +357,4 @@ p{
             justify-content: center;
         }
        
-      }
+      } */ */

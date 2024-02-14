@@ -1,4 +1,4 @@
-.cr{
+/* .cr{
     height:auto;
 }
 .college_name{
@@ -8,23 +8,23 @@
     margin-left:30px;
     margin-right:30px;
     margin-bottom:30px;
-    background-color: ;
-    color: rgb(15, 15, 86);
+       color: rgb(15, 15, 86);
     font-family: 'PT Serif', serif; 
     text-align:center;
     border-radius: 5px;
     border: 5px solid black;
     background-color:rgb(216, 236, 244);
     box-shadow: 0 0 2px 2px grey;
-   }
-
+   } */
+/* 
 .head-main{
     display:flex;
     justify-content: space-around;
     font-size:60px;
 
-}
-.grade{
+} */
+
+/* .grade{
     text-align:center;
     color:  rgb(15, 15, 86);
     font-size: 25px;
@@ -45,7 +45,7 @@
 .navigation_button{
     margin-left: 20px;
 
-}
+} */
 .main-heading{  
     color:white;
     font-size: 55px; 
@@ -160,14 +160,15 @@
     margin-left: 15px;
     margin-right: 12px;
    margin-top: 20px;
-   justify-content: space-evenly;
+   justify-content:space-around;
+   
 } 
 
 @media screen and (max-width:800px){
- .college_name{
+ /* .college_name{
     font-size: 20px;
     height: 60px;
- }
+ } */
  .main-heading{
     font-size: 40px;
  }
@@ -220,10 +221,10 @@
 }
 
 @media screen and (min-width:800px) and (max-width:992px){
-    .college_name{
+    /* .college_name{
         font-size: 20px;
         height: 60px;
-     }
+     } */
      .main-heading{
         font-size: 47px;
      }
@@ -277,7 +278,7 @@
 }
 
 /* FOOTER CSS */
-
+/* 
 .footer {
     margin-top: 10px;
     padding: 30px 30px 0 30px;
@@ -340,4 +341,4 @@ span {
 }
 .social_media{
     width: 30px;
-}
+} */

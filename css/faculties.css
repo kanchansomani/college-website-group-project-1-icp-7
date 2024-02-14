@@ -93,7 +93,7 @@
         text-align:center;
         background-color: rgb(15,15,86) ;
     }
-    .college_name{
+    /* .college_name{
         font-size:30px;
         height: 120px;
         padding-top: 20px;
@@ -109,11 +109,11 @@
         background-color:rgb(216, 236, 244);
         box-shadow: 0 0 2px 2px grey;
        }
-}
+} */
 
 
 /*header css*/
-.cr{
+/* .cr{
     height:auto;
 }
 .college_name{
@@ -160,12 +160,12 @@
 .navigation_button{
     margin-left: 20px;
 
-}
+} */
 
 
 /* FOOTER CSS */
 
-.footer {
+/* .footer {
     margin-top: 10px;
     padding: 30px 30px 0 30px;
     color: #ffffff;
@@ -227,4 +227,4 @@ span {
 }
 .social_media{
     width: 30px;
-}
+} */

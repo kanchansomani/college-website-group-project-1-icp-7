@@ -1,4 +1,3 @@
-
 *{
   padding: 0%;
   margin: 0%;
@@ -10,35 +9,30 @@
 
 h1{
   text-align: center;
-  background-color: rgb(216, 236, 244);
-  color: #06031e; 
+  background-color: rgb(15, 15, 86);
+  color: rgb(249, 249, 252);
   height: 50px;
   margin-top: 0;
   padding-top: 0%;
   font-size: 40px;
   border: #110633 double 5px;
 }
-.image{
-  margin-left: 0;
+.img{
+  margin-left: 0%;
   width: 550px;
   margin-right: 3px;
   height: 400px;
   box-shadow: 0px 0px 7px rgb(15, 15, 81);
-  margin-top:-3px;
+  margin-top: 3px;
 }
 .form{
-margin-top:34px;
   box-shadow: 0 0 6px 6px rgba(7, 5, 57, 0.877);
   border-radius: 5px;
   justify-content: center;
   height: 407px;
-  width: 700px;
+  width: 745px;
   background-color: rgba(15, 15, 86);
   padding-left: 25px;
-}
-.form
-{
-margin-left: 20px;
 }
 .fn,.email,.query,.date,.opinion{
   width: 550px;
@@ -60,16 +54,16 @@ h2{
 .submit{
   text-align: center;
   margin-left: 38%;
-  width: 200px;
+  width: 150px;
   height: 30px;
   color:rgb(3, 3, 25);
   background-color: rgb(255, 255, 255) ;
   border: #aeaad2 3px solid;
   box-shadow: 0 0 2px 2px rgb(100, 104, 159);
-  border-radius: 40px;
+  border-radius: 6%;
 }
 .submit:hover{
-  background-color:green;
+  background-color: rgb(15, 15, 86);
   color: rgb(226, 226, 241);
 }
 .three-box{
@@ -127,18 +121,18 @@ h5{
 
 }
 .offices{
-  /* margin-left: 7%; */
+  margin-left: 7%;
   border:3px rgba(15, 15, 86, 0.739) solid;
   box-shadow:0 0 6px rgba(15, 15, 86, 0.739);
   width: 1335px;
 }
 .loc{
-  /* margin-left: 7%; */
+  margin-left: 7%;
   box-shadow:0 0 6px rgba(15, 15, 86, 0.739);
 }
 /* header*/
 
-/* 
+
 .container {
 background-color: rgb(15, 15, 86);
 padding-top: 30px;
@@ -216,33 +210,33 @@ margin-left: 20px;
 
 
 }
-} */
-/* 
+}
+
 @media screen and (max-width:768px) {
 .rights
 
 /*roght logo */
-  /* {
+  {
   height: 100px;
   margin-top: -150px;
   margin-left: 330px;
   position: absolute;
 }
-} */ 
-/* 
+}
+
 @media screen and (max-width:768px) {
 .left
 
 /*roght logo */
-  /* {
+  {
 
   height: 100px;
   margin-top: -120px;
   position: absolute;
 
 }
-} */ 
-/* 
+}
+
 .social_media {
 height: 30px;
 margin: 5px;
@@ -356,10 +350,10 @@ right: 10px;
 
 }
 }
-*/
+
 
 /* FOOTER CSS */
-/* 
+
 .footer {
   margin-top: 10px;
   padding: 30px 30px 0 30px;
@@ -471,4 +465,4 @@ header{
   background-color: rgb(15,15,86);
   margin-top: 0%;
   padding-top: 0%;
-} */
+}
